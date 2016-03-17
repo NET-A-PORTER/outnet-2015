@@ -1,0 +1,19 @@
+{
+  "name": "outnet-2015",
+  "homepage": "https://github.com/NET-A-PORTER/outnet-2015",
+  "authors": [
+    "Hem Brahmbhatt <hamant.brahmbhatt@net-a-porter.com>"
+  ],
+  "description": "Styles for OUTNET 2015",
+  "main": "styles.scss",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "1.0.0"
+}

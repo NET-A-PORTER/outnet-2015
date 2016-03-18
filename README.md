@@ -16,3 +16,9 @@ bower install outnet-2015
 ## Usage
 
 See [http://preston-nap.herokuapp.com/#/style/outnet-2015](http://preston-nap.herokuapp.com/#/style/outnet-2015)
+
+## Tips & Tricks
+#### Local usage and changes
+After installing via bower, use `bower link` to link your projects to a local version of outnet-2015.
+- `cd outnet-2015 && bower link`
+- `cd my-awesome-project && bower link outnet-2015`

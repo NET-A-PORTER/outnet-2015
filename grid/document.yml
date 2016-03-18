@@ -50,14 +50,3 @@ document:
         </div>
       </div>
     </div>
-- title: Mobile grids
-  detail: |
-    On a device with a width less than 460px, the default grid will
-    stack the columns. If you want to keep the specified layout on mobile,
-    use grid-mobile-12 instead.
-  markup: |
-    <div class="grid-mobile-12 gutter-10">
-      <div class="span-4"><span>.span-4</span></div>
-      <div class="span-4"><span>.span-4</span></div>
-      <div class="span-4"><span>.span-4</span></div>
-    </div>

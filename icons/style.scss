@@ -4,8 +4,8 @@
 %icon {
   content: "";
   display: block;
-  background-image: url("/images/icons.png");
-  background-image: none, url("/images/icons.svg");
+  background-image: url("../images/icons.png");
+  background-image: none, url("../images/icons.svg");
   background-repeat: no-repeat;
   @include _square(map_get($spriteDimensions, "iconDimension"));
   margin: -1px 0 0 0;

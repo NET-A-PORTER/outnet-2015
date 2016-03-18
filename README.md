@@ -25,6 +25,7 @@ See [http://preston-nap.herokuapp.com/#/style/outnet-2015](http://preston-nap.he
 
 ## Tips & Tricks
 #### Local usage and changes
-After installing via bower, use `bower link` to link your projects to a local version of outnet-2015.
+After installing via bower or npm, use `bower link` or `npm link` to link your projects to a local version of outnet-2015.
 - `cd outnet-2015 && bower link`
 - `cd my-awesome-project && bower link outnet-2015`
+**Note:** This will only work if both projects are currently using the same node version!

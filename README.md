@@ -17,11 +17,8 @@ bower install outnet-2015
 See [http://preston-nap.herokuapp.com/#/style/outnet-2015](http://preston-nap.herokuapp.com/#/style/outnet-2015)
 
 ## Release
-- Bump the versions in bower and npm:
-  - `bower version (major | minor | patch)`
-  - `npm version (major | minor | patch)`
-- Push the version: `git push origin --tags`
-- Publish to npm: `npm publish`
+- Bump the version: `npm version (major | minor | patch)`
+- Publish: `npm publish`
 
 ## Tips & Tricks
 #### Local usage and changes

@@ -1,0 +1,53 @@
+@import '../mixins/base';
+
+$spinnerSize: 5;
+$relativeSize: 5em;
+$barWidth: .5em;
+$barHeight: 1.5em;
+
+%loading-spinner {
+  @include cross-browser(animation, spin 1s infinite);
+  font-size: #{$spinnerSize}px;
+  margin: #{($relativeSize/2) * -1} 0 0 #{($relativeSize/2) * -1};
+  height: $relativeSize;
+  width: $relativeSize;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  // all elements have an opposing element
+  // via the box shadow property
+  &:before,
+  &:after,
+  > div:before,
+  > div:after {
+    @include cross-browser(box-shadow, 0 ($relativeSize - $barHeight) #b0b0b0);
+    @include cross-browser(transform-origin, 50% ($relativeSize / 2));
+    left: ($relativeSize - $barWidth)/2;
+    width: $barWidth;
+    height: $barHeight;
+    background: #eee;
+    border-radius: .2em;
+    position: absolute;
+    content: '';
+    top: 0;
+  }
+  &:before {
+    background: #000000;
+  }
+  &:after {
+    @include cross-browser(transform, rotate(-45deg));
+    background: #555;
+
+  }
+  > div {
+    &:before {
+      @include cross-browser(transform, rotate(-90deg));
+      background: #777;
+    }
+    &:after {
+      @include cross-browser(transform, rotate(-135deg));
+      background: #999;
+    }
+  }
+}

@@ -1,11 +1,11 @@
-# outnet-2015
-Outnet 2015 styles
+# OUTNET.com Style Guide
+The most fashionable styles at your fingertips
 
 ## Installation
 
 Add the following in the head section of your page
 ```html
-<link type="text/css" rel="stylesheet" href="https://s3-eu-west-1.amazonaws.com/preston-assets-dev/outnet-2015/styles.css">
+<link type="text/css" rel="stylesheet" href="https://s3-eu-west-1.amazonaws.com/preston-assets-dev/css/styles/outnet-2015/styles.css">
 ```
 
 You can install the sass version via bower

@@ -8,7 +8,7 @@ Add the following in the head section of your page
 <link type="text/css" rel="stylesheet" href="https://s3-eu-west-1.amazonaws.com/preston-assets-dev/outnet-2015/styles.css">
 ```
 
-You can install the sass version via npm
+You can install the sass version via bower
 ```bash
-npm install outnet-2015
+bower install outnet-2015
 ```

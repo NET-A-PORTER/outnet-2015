@@ -19,15 +19,9 @@ npm install outnet-2015
 ## Usage
 See [http://preston-nap.herokuapp.com/#/style/outnet-2015](http://preston-nap.herokuapp.com/#/style/outnet-2015)
 
-## Release
+## Contributing
+See [CONTRIBUTING](https://github.com/NET-A-PORTER/outnet-2015/wiki/Contributing)
+
+## Releasing
 - Bump the version: `npm version (major | minor | patch)`
 - Publish: `npm publish`
-
-## Tips & Tricks
-#### Local usage and changes
-After installing via bower or npm, use `bower link` or `npm link` to link your projects to a local version of outnet-2015.
-
-1. `cd outnet-2015 && bower link`
-2. `cd my-awesome-project && bower link outnet-2015`
-
-**Note:** This will only work if both projects are currently using the same node version!

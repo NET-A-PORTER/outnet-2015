@@ -9,6 +9,8 @@ document:
     <a class="icon-minus-black btn"/></a>
     <a class="icon-plus-black btn"/></a>
     <a class="icon-search-black btn"/></a>
+    <a class="icon-arrow-left-lrg-black btn"/></a>
+    <a class="icon-arrow-right-lrg-black btn"/></a>
 - title: Grey icons
   markup: |
     <a class="icon-arrow-down-grey btn btn-disabled"></a>
@@ -19,5 +21,7 @@ document:
     <a class="icon-minus-grey btn btn-disabled"/></a>
     <a class="icon-plus-grey btn btn-disabled"/></a>
     <a class="icon-search-grey btn btn-disabled"/></a>
+    <a class="icon-arrow-left-lrg-grey btn btn-disabled"/></a>
+    <a class="icon-arrow-right-lrg-grey btn btn-disabled"/></a>
 - title: White icons
   markup: <a class="icon-arrow-right-white btn btn-primary"/></a>

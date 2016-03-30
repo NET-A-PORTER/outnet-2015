@@ -27,5 +27,5 @@
 
 .loading-spinner-large {
 	font-size: 10px;
-	@@extend %loading-spinner;
+	@extend %loading-spinner;
 }

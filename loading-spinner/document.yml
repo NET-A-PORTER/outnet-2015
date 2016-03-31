@@ -1,7 +1,13 @@
 document:
 - title: Loading Spinner
-  detail: Spinners for slow loading
+  detail: Spinner for slow loading
   markup: |
     <div style="position: relative; height: 50px;">
       <div class="loading-spinner"><div></div></div>
+    </div>
+- title: Large Loading Spinner
+  detail: Large spinner for slow loading
+  markup: |
+    <div style="position: relative; height: 50px;">
+      <div class="loading-spinner-large"><div></div></div>
     </div>

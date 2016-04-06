@@ -15,6 +15,13 @@ bower install outnet-2015
 
 ## Upgrading
 
+If you used the above code in the `<head>` of your page, it will constantly pick up the latest version.
+
+If you want to use a specific version, use the following code instead.
+```html
+<link rel="stylesheet" href="//s3-eu-west-1.amazonaws.com/preston-assets/css/outnet-2015.1.2.5.css">
+```
+
 You can upgrade your installed version via [bower](http://bower.io).
 ```bash
 bower install --save outnet-2015#new-version-number

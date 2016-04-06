@@ -13,6 +13,8 @@ You can install the sass version via [bower](http://bower.io).
 bower install outnet-2015
 ```
 
+## Upgrading
+
 You can upgrade your installed version via [bower](http://bower.io).
 ```bash
 bower install --save outnet-2015#new-version-number

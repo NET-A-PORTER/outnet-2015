@@ -5,7 +5,7 @@ The most fashionable styles at your fingertips
 
 Add the following code to the `<head>` of your page(s).
 ```html
-<link rel="stylesheet" href="//s3-eu-west-1.amazonaws.com/preston-assets/css/outnet-2015.css">
+<link rel="stylesheet" href="//s3-eu-west-1.amazonaws.com/preston-assets/css/outnet-2015.1.2.5.css">
 ```
 
 You can install the sass version via [bower](http://bower.io).

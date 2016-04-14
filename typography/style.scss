@@ -1,3 +1,6 @@
+$screen-s-min: 640px;
+$screen-m-min: 960px;
+
 $fontDirectory: "../fonts";
 $fontList: FuturaBook FuturaLight FuturaDemi FuturaMedium;
 
@@ -25,30 +28,35 @@ b {
 html,
 body {
 	@include fontFamily(FuturaBook);
-	line-height: 1.4em;
+	line-height: 22px;
 	font-size: 13px;
+	letter-spacing: 0.5px;
 }
 
 h1,
 h2 {
-	font-size: 28px;
-	letter-spacing: 2px;
-	line-height: normal;
+	letter-spacing: 1px;	
 	text-transform: uppercase;
 	text-align: center;
 }
+
+h1 {
+	font-size: 22px;
+	line-height: 25px;
+}
+
+h2 {
+	font-size:17px;
+	line-height: 25px;
+}
+
 h1 + h2 {
 	@include fontFamily(FuturaBook);
 	color: #777;
-	font-size: 15px;
-	line-height: 28px;
 	margin-top: -16px;
 	text-align: center;
 }
-h2 {
-	letter-spacing: 1px;
-	text-align: left;
-}
+
 h3.slug {
 	@include fontFamily(FuturaBook);
 	font-size: 17px;
@@ -111,5 +119,19 @@ p {
 			margin-top: 30px;
 			text-transform: none;
 		}
+	}
+}
+
+// tablet and desktop
+@media (min-width : $screen-s-min) {
+
+	body {
+		line-height: 25px;
+		font-size: 15px;
+	}
+
+	h1 {
+		font-size: 28px;
+		line-height: 30px;
 	}
 }

@@ -19,6 +19,16 @@
   };
 }
 
+.icon-quickview-black {
+  &:before {
+    @extend %icon;
+    background-image: none, url("../images/Quickview_Symbol_Black_24x24.svg");
+    background-size: 410%;
+    background-position: 50% 50%;
+    @include _square(24px);
+  }
+}
+
 @include viewport(mobile) {
   @each $colour in $iconColours {
     @include create_icons($colour) {

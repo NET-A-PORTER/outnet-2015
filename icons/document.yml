@@ -11,6 +11,7 @@ document:
     <a class="icon-search-black btn"/></a>
     <a class="icon-arrow-left-lrg-black btn"/></a>
     <a class="icon-arrow-right-lrg-black btn"/></a>
+    <a class="icon-quickview-black btn"/></a>
 - title: Grey icons
   markup: |
     <a class="icon-arrow-down-grey btn btn-disabled"></a>

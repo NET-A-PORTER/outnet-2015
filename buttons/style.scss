@@ -1,10 +1,12 @@
+@import 'variables';
+@import 'button-icons';
 @import '../mixins/colours';
 
 button,
 input[type=submit],
 .btn {
-	background: $greySelected;
-	border: none;
+	background: $white;
+	border: 1px solid $greyBorder;
 	color: $black;
 	cursor: pointer;
 	display: inline-block;
@@ -15,15 +17,15 @@ input[type=submit],
 	margin-bottom: 5px;
 	margin-top: 5px;
 	max-width: 300px;
-	padding: 11px 20px 8px;
+	padding: 11px $btnPadding 8px;
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
 	vertical-align: middle;
 	white-space: initial;
 	&:hover {
-		background: #b7b7b7;
-		color: #000;
+		background: $darkGreySelected;
+		color: $black;
 	}
 	&.btn-small {
 		font-size: 13px;
@@ -31,8 +33,9 @@ input[type=submit],
 		padding: 8px 15px 7px;
 	}
 	&.btn-primary {
-		background: #000;
-		color: #fff;
+		border: none;
+		background: $black;
+		color: $white;
 		&:hover {
 			background: #2a2626;
 		}
@@ -41,8 +44,8 @@ input[type=submit],
 	&.btn-selector-single-1,
 	&.btn-selector-single-2 {
 		@extend .btn-small;
-		background: #fff;
-		border: #d3d3d3 1px solid;
+		background: $white;
+		border: $greyBorder 1px solid;
 		max-width: inherit;
 		text-transform: none;
 	}
@@ -52,28 +55,28 @@ input[type=submit],
 	}
 	&.btn-selector-active {
 		&.btn-selector-multi {
-			border: 2px solid #b7b7b7;
+			border: 2px solid $darkGreySelected;
 		}
 		&.btn-selector-single-1 {
-			background: #000;
-			border-color: #000;
-			color: #fff;
+			background: $black;
+			border-color: $black;
+			color: $white;
 		}
 		&.btn-selector-single-2 {
 			background: $greySelected;
-			color: #000;
+			color: $black;
 		}
 	}
 	&.btn-selector-multi:hover {
 		@extend .btn-selector-active.btn-selector-multi;
 	}
 	&.btn-white {
-		background: #fff;
-		color: #000;
-		outline: #000 1px solid;
+		background: $white;
+		color: $black;
+		outline: $black 1px solid;
 		&:hover {
-			background: #000;
-			color: #fff;
+			background: $black;
+			color: $white;
 		}
 	}
 	&[disabled],
@@ -81,7 +84,7 @@ input[type=submit],
 	&.btn-disabled,
 	&.btn-disabled:hover {
 		background: $greySelected;
-		color: #b7b7b7;
+		color: $darkGreySelected;
 		cursor: default;
 		outline: none;
 	}

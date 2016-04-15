@@ -1,0 +1,62 @@
+@import 'variables';
+@import '../mixins/viewport';
+@import '../mixins/base';
+@import '../icons/mixins';
+
+.btn {
+  &.btn-icon-left,
+  &.btn-icon-right {
+    text-transform: capitalize;
+    position: relative;
+    .btn-icon {
+      position: absolute;
+    }
+  }
+  &.btn-icon-left {
+    .btn-icon {
+      top: 15px;
+    }
+  }
+  &.btn-icon-right {
+    .btn-icon {
+      top: 13px;
+      &.icon-arrow-down-black {
+        top: 15px;;
+      }
+    }
+  }
+  @each $direction in ('left','right') {
+    &.btn-icon-#{$direction} {
+      padding-#{$direction}: $btnPadding + 22px;
+      .btn-icon {
+        #{$direction}: 15px;
+      }
+    }
+  }
+
+  @include viewport(mobile) {
+    @each $colour in $iconColours {
+      @include create_icons($colour) {
+        margin-top: -1px;
+        @include _square(22px);
+      }
+    }
+
+    &.btn-icon-left {
+      .btn-icon {
+        top: 11px;
+      }
+    }
+    &.btn-icon-right {
+      .btn-icon {
+        top: 11px;
+        &.icon-arrow-down-black {
+          top: 11px;
+        }
+        &.icon-arrow-up-black {
+          top: 8px;
+        }
+      }
+    }
+  }
+}

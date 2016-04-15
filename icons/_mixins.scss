@@ -1,3 +1,5 @@
+@import '../mixins/browser';
+
 $spriteDimensions: (
         "iconDimension": 12px,
         "spriteWidth": 12px,
@@ -5,8 +7,8 @@ $spriteDimensions: (
 );
 
 $iconsMap: (
-        'black': (arrow-down: 0px, arrow-left: -29px, arrow-right: -57px, arrow-up: -98px, cross: -126px, minus: -154px, plus: -182px, search: -210px, arrow-right-lrg: -237px, arrow-left-lrg:-254px),
-        'grey': (arrow-down: -14px, arrow-left: -42px, arrow-right: -70px, arrow-up: -112px, cross: -140px, minus: -168px, plus: -196px, search: -224px, arrow-right-lrg: -271px, arrow-left-lrg:-289px),
+        'black': (arrow-down: 0px, arrow-left: -29px, arrow-right: -57px, arrow-up: -98px, cross: -126px, minus: -154px, plus: -182px, search: -210px, arrow-right-lrg: -241px, arrow-left-lrg:-259px),
+        'grey': (arrow-down: -14px, arrow-left: -42px, arrow-right: -70px, arrow-up: -112px, cross: -140px, minus: -168px, plus: -196px, search: -224px, arrow-right-lrg: -275px, arrow-left-lrg:-293px),
         'white': (arrow-right: -84px),
 );
 
@@ -19,7 +21,7 @@ $iconColours: map-keys($iconsMap);
   $spriteHeight: map_get($spriteDimensions, "spriteHeight");
   $iconDimension: map_get($spriteDimensions, "iconDimension");
 
-  background-position: (($x / $spriteWidth * 100%) * -1) (($y / ($spriteHeight - $iconDimension) * 100%) * -1);
+  background-position: (($x / $spriteWidth * 100%) * -1) (($y / (($spriteHeight - $iconDimension)) * 100%) * -1);
 }
 
 @mixin create_icons($colour) {

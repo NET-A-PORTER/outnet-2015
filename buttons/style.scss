@@ -24,7 +24,7 @@ input[type=submit],
 	vertical-align: middle;
 	white-space: initial;
 	&:hover {
-		background: $darkGreySelected;
+		background: $greySelected;
 		color: $black;
 	}
 	&.btn-small {
@@ -37,7 +37,7 @@ input[type=submit],
 		background: $black;
 		color: $white;
 		&:hover {
-			background: #2a2626;
+			background: $greyHover;
 		}
 	}
 	&.btn-selector-multi,

@@ -1,4 +1,6 @@
 # OUTNET.com Style Guide
+![https://img.shields.io/bower/v/outnet-2015.svg](https://img.shields.io/bower/v/outnet-2015.svg)
+
 The most fashionable styles at your fingertips
 
 ## Installation

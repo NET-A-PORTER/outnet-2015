@@ -80,7 +80,7 @@ a {
 	text-decoration: underline;
 }
 p {
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 	&.credit {
 		@include fontFamily(FuturaDemi);
 		font-size: 11px;
@@ -102,13 +102,11 @@ p {
 		}
 	}
 	&.description {
-		@include fontFamily(FuturaLight);
-		font-size: 17px;
+		font-size: 15px;
 	}
 	&.quote {
-		font-family: FuturaLight;
-		font-size: 25px;
-		line-height: 45px;
+		font-size: 22px;
+		line-height: 35px;
 		max-width: 600px;
 		padding: 20px;
 		text-align: center;
@@ -127,7 +125,7 @@ p {
 
 	body {
 		line-height: 25px;
-		font-size: 15px;
+		font-size: 13px;
 	}
 
 	h1 {

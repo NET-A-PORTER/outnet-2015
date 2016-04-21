@@ -101,8 +101,12 @@ p {
 			margin-right: auto;
 		}
 	}
-	&.description {
+	&.campaign {
 		font-size: 15px;
+	}
+	&.informational {
+		font-size: 11px;
+		line-height: 20px;
 	}
 	&.quote {
 		font-size: 22px;
@@ -124,7 +128,7 @@ p {
 @media (min-width : $screen-s-min) {
 
 	body {
-		line-height: 25px;
+		line-height: 22px;
 		font-size: 13px;
 	}
 

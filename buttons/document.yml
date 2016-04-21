@@ -18,8 +18,8 @@ document:
       <input class="btn-primary" type="submit" value="Input Submit" disabled />
       <button class="btn-primary" disabled>Button</button>
     </div>
-- title: Default buttons
-  detail: Active and inactive variations
+- title: Secondary buttons
+  detail: Active and inactive variations. Note - buttons should have a 20px horizontal spacing between them. It is up to the developer to implement this. It is not possible to include the proper spacing here in the styles.
   markup: |
     <div>
       <a class="btn" href="#" role="button">Anchor</a>

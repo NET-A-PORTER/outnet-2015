@@ -39,6 +39,7 @@
 
 %grid-table {
   display: table;
+  table-layout: fixed;
   width: 100%;
   @for $span_i from 1 through $columns {
     & > .span-#{$span_i} {

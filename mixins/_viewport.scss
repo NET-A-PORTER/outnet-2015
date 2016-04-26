@@ -2,6 +2,7 @@
 	$breakpoints: (
 		mobile: (min: 0px, max: 640px),
 		tablet: (min: 641px, max: 1025px),
+		tabletLandscape: (min: 802px, max: 1025px),
 		tabletPortrait: (min: 641px, max: 801px),
 		desktop: (min: 1026px, max: 10000px)
 	);

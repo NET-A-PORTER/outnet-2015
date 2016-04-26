@@ -50,3 +50,11 @@ document:
         </div>
       </div>
     </div>
+- title: Stacked grid
+  detail: The following grid will automatically stack on <b>devices up to mobile</b>.
+  markup: |
+    <div class="grid-12-vertical gutter-10">
+      <div class="span-4"><span>.span-4</span></div>
+      <div class="span-4"><span>.span-4</span></div>
+      <div class="span-4"><span>.span-4</span></div>
+    </div>

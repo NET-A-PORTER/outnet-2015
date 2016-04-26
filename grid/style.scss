@@ -1,3 +1,4 @@
+@import '../mixins/viewport';
 @import 'mixins';
 
 %grid {
@@ -54,6 +55,17 @@
   }
 }
 
+%grid-stacked-mobile {
+  @include viewport-maximum(tabletPortrait) {
+    @for $span_i from 1 through $columns {
+      & > .span-#{$span_i} {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}
+
 .grid-#{$columns} {
   @extend %grid;
   @extend %gutter;
@@ -62,6 +74,7 @@
 .grid-#{$columns}-vertical {
   //TODO: check if it works with multiple rows
   @extend %grid-table;
+  @extend %grid-stacked-mobile;
   @extend %gutter;
 }
 

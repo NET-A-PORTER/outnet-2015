@@ -1,12 +1,12 @@
 .preston-element-grid {
-	.grid-12, .grid-mobile-12 {
+	.grid-12, .grid-mobile-12, .grid-12-vertical {
 		&> div {
 			span {
 				display: block;
 				border: 1px solid black;
 				padding: 10px;
 			}
-			> .grid-12, .grid-mobile-12 {
+			> .grid-12, .grid-mobile-12, .grid-12-vertical {
 				outline: 10px solid lightgrey;
 			}
 		}

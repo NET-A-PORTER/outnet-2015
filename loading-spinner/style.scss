@@ -16,11 +16,11 @@
   width: 100%;
   height: 100%;
   z-index: 9999;
+	&.on-load {
+		background-color: #fff;
+	}
 }
 
-.opaque {
-	background-color: #fff;
-}
 .loading-spinner {
   @extend %loading-spinner;
 }

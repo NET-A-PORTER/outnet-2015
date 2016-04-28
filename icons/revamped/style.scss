@@ -1,0 +1,13 @@
+@import '../../mixins/base';
+@import 'mixins';
+
+@each $colour in $iconColours {
+  @include create_icons($colour) {
+    content: "";
+    display: block;
+    background-image: none, url("../images/generated-icons.svg");
+    background-repeat: no-repeat;
+    @include _square(map_get($spriteDimensions, "iconDimension"));
+    background-size: 100%;
+  };
+}

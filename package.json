@@ -1,0 +1,22 @@
+{
+  "name": "outnet-2015",
+  "version": "1.0.0",
+  "description": "![https://img.shields.io/bower/v/outnet-2015.svg](https://img.shields.io/bower/v/outnet-2015.svg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NET-A-PORTER/outnet-2015.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NET-A-PORTER/outnet-2015/issues"
+  },
+  "homepage": "https://github.com/NET-A-PORTER/outnet-2015#readme",
+  "dependencies": {
+    "svg-sprite": "^1.2.19"
+  }
+}

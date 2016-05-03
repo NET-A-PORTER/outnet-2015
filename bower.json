@@ -10,6 +10,8 @@
   "moduleType": [],
   "license": "MIT",
   "ignore": [
-    "**/.*"
+    "**/.*",
+    "node_modules/",
+    "package.json"
   ]
 }

@@ -1,11 +1,14 @@
+@import "../base/_devices";
+
 @function breakpoints($view) {
 	$breakpoints: (
-		mobile: (min: 0px, max: 640px),
-		tablet: (min: 641px, max: 1025px),
-		tabletLandscape: (min: 802px, max: 1025px),
-		tabletPortrait: (min: 641px, max: 801px),
-		desktop: (min: 1026px, max: 10000px)
+		mobile: (min: $mobileMin, max: $mobileMax),
+		tablet: (min: $tabletMin, max: $tabletMax),
+		tabletLandscape: (min: $tabletLandscapeMin, max: $tabletLandscapeMax),
+		tabletPortrait: (min: $tabletPortraitMin, max: $tabletPortraitMax),
+		desktop: (min: $desktop, max: 10000px)
 	);
+
 	@if not map-has-key($breakpoints, $view) {
 		@warn "Breakpoint `#{$view}` not found";
 	}

@@ -1,0 +1,25 @@
+@import '_breakpoints';
+
+@function map-deep-get($map, $keys...) {
+  @each $key in $keys {
+    $map: map-get($map, $key);
+  }
+  @return $map;
+}
+
+$mobileMin: map-deep-get($breakpoints, 'mobile', 'min') + 0px;
+$mobileMax: map-deep-get($breakpoints, 'mobile', 'max') + 0px;
+
+$tabletMin: map-deep-get($breakpoints, 'tablet', 'min') + 0px;
+$tabletMax: map-deep-get($breakpoints, 'tablet', 'max') + 0px;
+
+$mobileLandscapeMin: map-deep-get($breakpoints, 'mobile', 'landscape', 'min') + 0px;
+$mobileLandscapeMax: map-deep-get($breakpoints, 'mobile', 'landscape', 'min') + 0px;
+
+$tabletLandscapeMin: map-deep-get($breakpoints, 'tablet', 'landscape', 'min') + 0px;
+$tabletLandscapeMax: map-deep-get($breakpoints, 'tablet', 'landscape', 'max') + 0px;
+
+$tabletPortraitMin: map-deep-get($breakpoints, 'tablet', 'portrait', 'min') + 0px;
+$tabletPortraitMax: map-deep-get($breakpoints, 'tablet', 'portrait', 'min') + 0px;
+
+$desktop: map-deep-get($breakpoints, 'desktop', 'min') + 0px;

@@ -1,0 +1,29 @@
+{
+  "mobile": {
+    "min": 0,
+    "max": 640,
+    "portrait": {
+      "max": 400,
+      "min": 0
+    },
+    "landscape":{
+      "max": 640,
+      "min": 401
+    }
+  },
+  "tablet":{
+    "min": 641,
+    "max": 1025,
+    "portrait":{
+      "max": 800,
+      "min": 641
+    },
+    "landscape":{
+      "max": 1025,
+      "min": 801
+    }
+  },
+  "desktop":{
+    "min": 1026
+  }
+}

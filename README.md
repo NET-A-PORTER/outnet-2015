@@ -15,6 +15,14 @@ You can install the sass version via [bower](http://bower.io).
 bower install outnet-2015
 ```
 
+## Build
+
+Run
+```bash
+npm run build
+```
+to generate sass files from json files. json files are intended to contain constants (e.g, device breakpoints) to be a single source of truth.
+
 ## Upgrading
 
 You can upgrade your installed version via [bower](http://bower.io).

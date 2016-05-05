@@ -26,8 +26,10 @@ document:
     <a class="icon-arrow-right-lrg-grey btn btn-disabled"/></a>
 - title: White icons
   markup: <a class="icon-arrow-right-white btn btn-primary"/></a>
-- title: Revamped icons
-  disable: true
+
+# Revamped icons
+- title: Small icons
+  disable: false
   markup: |
     <a class="revamped-icon-arrow-down-black btn"></a>
     <a class="revamped-icon-arrow-left-black btn"/></a>
@@ -37,6 +39,49 @@ document:
     <a class="revamped-icon-minus-black btn"/></a>
     <a class="revamped-icon-plus-black btn"/></a>
     <a class="revamped-icon-search-black btn"/></a>
+    <a class="revamped-icon-lock-black btn"></a>
+    <br/>
+    <a class="revamped-icon-arrow-down-grey btn btn-disabled"></a>
+    <a class="revamped-icon-arrow-left-grey btn btn-disabled"/></a>
+    <a class="revamped-icon-arrow-right-grey btn btn-disabled"/></a>
+    <a class="revamped-icon-arrow-up-grey btn btn-disabled"/></a>
+    <a class="revamped-icon-cross-grey btn btn-disabled"/></a>
+    <a class="revamped-icon-minus-grey btn btn-disabled"/></a>
+    <a class="revamped-icon-plus-grey btn btn-disabled"/></a>
+    <a class="revamped-icon-search-grey btn btn-disabled"/></a>
+    <br/>
+    <a class="revamped-icon-arrow-down-white btn btn-primary"></a>
+    <a class="revamped-icon-arrow-left-white btn btn-primary"/></a>
+    <a class="revamped-icon-arrow-right-white btn btn-primary"/></a>
+    <a class="revamped-icon-arrow-up-white btn btn-primary"/></a>
+    <a class="revamped-icon-cross-white btn btn-primary"/></a>
+    <a class="revamped-icon-minus-white btn btn-primary"/></a>
+    <a class="revamped-icon-plus-white btn btn-primary"/></a>
+    <a class="revamped-icon-search-white btn btn-primary"/></a>
+- title: Large icons
+  disable: false
+  markup: |
     <a class="revamped-icon-arrow-left-lrg-black btn"/></a>
     <a class="revamped-icon-arrow-right-lrg-black btn"/></a>
+    <br/>
+    <a class="revamped-icon-arrow-left-lrg-grey btn btn-disabled"/></a>
+    <a class="revamped-icon-arrow-right-lrg-grey btn btn-disabled"/></a>
+    <br/>
+    <a class="revamped-icon-arrow-left-lrg-white btn btn-primary"/></a>
+    <a class="revamped-icon-arrow-right-lrg-white btn btn-primary"/></a>
+- title: Social icons
+  disable: false
+  markup: |
     <a class="revamped-icon-quickview-black btn"/></a>
+    <a class="revamped-icon-social-logo-Facebook-black btn"></a>
+    <a class="revamped-icon-social-logo-GooglePlus btn"></a>
+    <a class="revamped-icon-social-logo-Instagram btn"></a>
+    <a class="revamped-icon-social-logo-Pinterest btn"></a>
+    <a class="revamped-icon-social-logo-Twitter btn"></a>
+    <a class="revamped-icon-social-logo-YouTube btn"></a>
+    <br/>
+    <a class="revamped-icon-social-logo-Facebook-white btn btn-primary"></a>
+    <a class="revamped-icon-social-logo-GooglePlus-white btn btn-primary"></a>
+    <a class="revamped-icon-social-logo-Instagram-white btn btn-primary"></a>
+    <a class="revamped-icon-social-logo-Pinterest-white btn btn-primary"></a>
+    <a class="revamped-icon-social-logo-Twitter-white btn btn-primary"></a>

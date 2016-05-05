@@ -1,13 +1,23 @@
-@import '../../mixins/base';
+@import 'defaultIconMap';
+@import 'largeIconMap';
+@import 'socialIconMap';
 @import 'mixins';
 
-@each $colour in $iconColours {
-  @include create_icons($colour) {
-    content: "";
-    display: block;
-    background-image: none, url("../images/generated-icons.svg");
-    background-repeat: no-repeat;
-    @include _square(map_get($spriteDimensions, "iconDimension"));
-    background-size: 100%;
-  };
+@include create_icons($defaultIconsMap) {
+  background-image: none, url("../images/default-icons.svg");
+};
+
+@include create_icons($largeIconsMap) {
+  background-image: none, url("../images/large-icons.svg");
+};
+
+@include create_icons($socialIconsMap) {
+  background-image: none, url("../images/social-icons.svg");
+};
+
+.revamped-icon-quickview-black, .revamped-icon-quickview-grey {
+  &:before {
+    height: 24px;
+    width: 24px;
+  }
 }

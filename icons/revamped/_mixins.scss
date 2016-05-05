@@ -1,33 +1,36 @@
-$spriteDimensions: (
-        "iconDimension": 12px,
-        "spriteWidth": 12px,
-        "spriteHeight": 342px
-);
+@import '../../mixins/base';
 
-$iconsMap: (
-        'black': (arrow-down: 0px, arrow-left: -29px, arrow-right: -57px, arrow-up: -98px, cross: -126px, minus: -154px, plus: -182px, search: -210px, arrow-right-lrg: -241px, arrow-left-lrg:-259px),
-        'grey': (arrow-down: -14px, arrow-left: -42px, arrow-right: -70px, arrow-up: -112px, cross: -140px, minus: -168px, plus: -196px, search: -224px, arrow-right-lrg: -275px, arrow-left-lrg:-293px),
-        'white': (arrow-right: -84px),
-);
+// $spriteDimensions: (
+//         "iconDimension": 12px,
+//         "spriteWidth": 12px,
+//         "spriteHeight": 342px
+// );
 
-$iconColours: map-keys($iconsMap);
+// $iconColours: map-keys($iconsMap);
 
 // Expects coordinates from the top-left corner, as you would for normal background-position usage
 // This will turn the coordinates into percentages, allowing icons to scale using width and height properties
-@mixin sprite_location($x, $y, $spriteDimensions) {
-  $spriteWidth: map_get($spriteDimensions, "spriteWidth");
-  $spriteHeight: map_get($spriteDimensions, "spriteHeight");
-  $iconDimension: map_get($spriteDimensions, "iconDimension");
+// @mixin sprite_location($x, $y, $spriteDimensions) {
+//   $spriteWidth: map_get($spriteDimensions, "spriteWidth");
+//   $spriteHeight: map_get($spriteDimensions, "spriteHeight");
+//   $iconDimension: map_get($spriteDimensions, "iconDimension");
+//
+//   background-position: (($x / $spriteWidth * 100%) * -1) (($y / (($spriteHeight - $iconDimension)) * 100%) * -1);
+// }
 
-  background-position: (($x / $spriteWidth * 100%) * -1) (($y / (($spriteHeight - $iconDimension)) * 100%) * -1);
-}
-
-@mixin create_icons($colour) {
-  @each $icon, $y in map-get($iconsMap, '#{$colour}') {
-    .revamped-icon-#{$icon}-#{$colour} {
+@mixin create_icons($iconsMap) {
+  @each $icon, $iconInfo in $iconsMap {
+    .revamped-icon-#{$icon} {
       &:before {
         @content;
-        @include sprite_location(0px, $y, $spriteDimensions);
+        content: "";
+        display: block;
+        width: map_get($iconInfo, "width");
+        height: map_get($iconInfo, "height");
+        background-position: map_get($iconInfo, "coordinates");
+        //should change depending on sprite direction
+        background-size: auto 100%;
+        background-repeat: no-repeat;
       }
     }
   }

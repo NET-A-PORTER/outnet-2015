@@ -18,7 +18,7 @@
   },
   "scripts": {
     "build": "npm run json-to-sass",
-    "json-to-sass": "./node_modules/json-sass/lib/bin/json-sass -i device_breakpoints.json -o ./base/_breakpoints.scss -p '$breakpoints:' "
+    "json-to-sass": "json-sass -i device_breakpoints.json -o ./base/_breakpoints.scss -p '$breakpoints:' "
   },
   "devDependencies": {
     "json-sass": "^1.3.5"

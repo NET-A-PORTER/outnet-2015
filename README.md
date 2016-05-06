@@ -21,7 +21,8 @@ Run
 ```bash
 npm run build
 ```
-to generate sass files from json files. json files are intended to contain constants (e.g, device breakpoints) to be a single source of truth.
+to generate sass files from json files. json files are intended to contain constants (e.g, device breakpoints) to be a single source of truth. Run this task whenever the json files change
+ 
 
 ## Upgrading
 

@@ -18,11 +18,10 @@ bower install outnet-2015
 
 ## Build
 
-Run
 ```bash
 npm run build
 ```
-to regenerate breakpoints and icons if you change them.
+Regenerates breakpoints and icons (if you change `device-breakpoints.json` or if you add a new icon).
  
 
 ## Upgrading

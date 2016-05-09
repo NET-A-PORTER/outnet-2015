@@ -135,3 +135,5 @@ $defaultIconsMap: (
       height: 10px,
     ),
 );
+
+$defaultIcons: map-keys($defaultIconsMap);

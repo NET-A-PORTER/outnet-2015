@@ -70,3 +70,5 @@ $socialIconsMap: (
       height: 20px,
     ),
 );
+
+$socialIcons: map-keys($socialIconsMap);

@@ -30,3 +30,5 @@ $largeIconsMap: (
       height: 15px,
     ),
 );
+
+$largeIcons: map-keys($largeIconsMap);

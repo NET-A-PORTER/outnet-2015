@@ -24,7 +24,5 @@
 }
 
 @include viewport(mobile) {
-  @include create_icons($largeIconsMap) {
-    @include _square(18px);
-  }
+  @include icon_size($largeIcons, (width: 18px, height: 18px));
 }

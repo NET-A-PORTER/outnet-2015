@@ -2,8 +2,8 @@
 
 $iconPrefix: '.icon-';
 
-@mixin create_icons($iconsMap, $size: false) {
-  @each $icon, $iconInfo in $iconsMap {
+@mixin create_icons($iconMap, $size: false) {
+  @each $icon, $iconInfo in $iconMap {
     #{$iconPrefix}#{$icon} {
       &:before {
         content: "";
@@ -23,13 +23,32 @@ $iconPrefix: '.icon-';
   }
 }
 
-@mixin icon_size($icons, $size) {
+@mixin change_icons($icons: ()) {
   @each $icon in $icons {
-    #{$iconPrefix}#{$icon} {
+    #{$icon} {
       &:before {
-        width: map_get($size, "width");
-        height: map_get($size, "height");
+        @content;
       }
+    }
+  }
+}
+
+@mixin icon_size($icons: (), $size: ()) {
+  @if(length($icons) > 0) {
+    @each $icon in $icons {
+      #{$icon} {
+        &:before {
+          width: map_get($size, "width");
+          height: map_get($size, "height");
+          @content;
+        }
+      }
+    }
+  } @else {
+    &:before {
+      width: map_get($size, "width");
+      height: map_get($size, "height");
+      @content;
     }
   }
 }

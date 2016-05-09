@@ -36,9 +36,12 @@
   }
 
   @include viewport(mobile) {
-    @include create_icons($defaultIconsMap) {
+    @include icon_size(
+      $icons: $defaultIcons,
+      $size: (height: 22px, width: 22px)
+    );
+    @include change_icons($defaultIcons) {
       margin-top: -1px;
-      @include _square(22px);
     }
 
     &.btn-icon-left {

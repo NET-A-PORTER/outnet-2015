@@ -4,25 +4,26 @@
 @import 'mixins';
 @import '../mixins/browser';
 
-@include create_icons($defaultIconsMap, true) {
+@include create_icons($defaultIconMap, true) {
   background-image: none, url("../images/default-icons.svg");
 };
 
-@include create_icons($largeIconsMap, true) {
+@include create_icons($largeIconMap, true) {
   background-image: none, url("../images/large-icons.svg");
 };
 
-@include create_icons($socialIconsMap, true) {
+@include create_icons($socialIconMap, true) {
   background-image: none, url("../images/social-icons.svg");
 };
 
-#{$iconPrefix}quickview-black, #{$iconPrefix}quickview-grey {
-  &:before {
-    height: 24px;
-    width: 24px;
-  }
-}
+@include icon_size(
+  (#{$iconPrefix}quickview-black, #{$iconPrefix}quickview-grey),
+  (width: 24px, height: 24px)
+);
 
 @include viewport(mobile) {
-  @include icon_size($largeIcons, (width: 18px, height: 18px));
+  @include icon_size(
+    $largeIcons,
+    (width: 18px, height: 18px)
+  );
 }

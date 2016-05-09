@@ -85,3 +85,7 @@
     right: $tap-size-area;
   }
 }
+
+@function to-list($args...) {
+  @return append((), $args);
+}

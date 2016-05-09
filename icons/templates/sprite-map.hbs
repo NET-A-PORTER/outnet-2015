@@ -1,11 +1,12 @@
-${{name}}IconsMap: (
+${{name}}IconMap: (
   {{#shapes}}
     {{ base }}: (
       coordinates: {{ position.relative.xy }},
       width: {{ width.inner }}px,
       height: {{ height.inner }}px,
+      selector: '{{#selector.shape}}{{expression}}{{/selector.shape}}'
     ),
   {{/shapes}}
 );
 
-${{name}}Icons: map-keys(${{name}}IconsMap);
+${{name}}Icons: ({{#shapes}}{{#selector.shape}}'{{expression}}', {{/selector.shape}}{{/shapes}});

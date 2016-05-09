@@ -12,6 +12,8 @@
   "ignore": [
     "**/.*",
     "node_modules/",
-    "package.json"
+    "package.json",
+    "scripts/",
+    "**/templates"
   ]
 }

@@ -1,18 +1,27 @@
-@import '../mixins/browser';
+@import '../mixins/base';
 
-$spriteDimensions: (
-        "iconDimension": 12px,
-        "spriteWidth": 12px,
-        "spriteHeight": 342px
-);
+$iconPrefix: '.icon-';
 
-$iconsMap: (
-        'black': (arrow-down: 0px, arrow-left: -29px, arrow-right: -57px, arrow-up: -98px, cross: -126px, minus: -154px, plus: -182px, search: -210px, arrow-right-lrg: -241px, arrow-left-lrg:-259px),
-        'grey': (arrow-down: -14px, arrow-left: -42px, arrow-right: -70px, arrow-up: -112px, cross: -140px, minus: -168px, plus: -196px, search: -224px, arrow-right-lrg: -275px, arrow-left-lrg:-293px),
-        'white': (arrow-right: -84px),
-);
-
-$iconColours: map-keys($iconsMap);
+@mixin create_icons($iconsMap, $size: false) {
+  @each $icon, $iconInfo in $iconsMap {
+    #{$iconPrefix}#{$icon} {
+      &:before {
+        content: "";
+        display: block;
+        @if $size != false {
+          $size: if($size, map_get($iconInfo, "width"), $size);
+          width: $size;
+          height: $size;
+        }
+        background-position: map_get($iconInfo, "coordinates");
+        //should change depending on sprite direction
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        @content;
+      }
+    }
+  }
+}
 
 // Expects coordinates from the top-left corner, as you would for normal background-position usage
 // This will turn the coordinates into percentages, allowing icons to scale using width and height properties
@@ -20,17 +29,5 @@ $iconColours: map-keys($iconsMap);
   $spriteWidth: map_get($spriteDimensions, "spriteWidth");
   $spriteHeight: map_get($spriteDimensions, "spriteHeight");
   $iconDimension: map_get($spriteDimensions, "iconDimension");
-
   background-position: (($x / $spriteWidth * 100%) * -1) (($y / (($spriteHeight - $iconDimension)) * 100%) * -1);
-}
-
-@mixin create_icons($colour) {
-  @each $icon, $y in map-get($iconsMap, '#{$colour}') {
-    .icon-#{$icon}-#{$colour} {
-      &:before {
-        @content;
-        @include sprite_location(0px, $y, $spriteDimensions);
-      }
-    }
-  }
 }

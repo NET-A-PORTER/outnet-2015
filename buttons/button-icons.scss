@@ -1,6 +1,7 @@
 @import 'variables';
 @import '../mixins/viewport';
 @import '../mixins/base';
+@import '../icons/defaultIconMap';
 @import '../icons/mixins';
 
 .btn {
@@ -35,11 +36,9 @@
   }
 
   @include viewport(mobile) {
-    @each $colour in $iconColours {
-      @include create_icons($colour) {
-        margin-top: -1px;
-        @include _square(22px);
-      }
+    @include create_icons($defaultIconsMap) {
+      margin-top: -1px;
+      @include _square(22px);
     }
 
     &.btn-icon-left {

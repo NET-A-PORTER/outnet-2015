@@ -1,47 +1,30 @@
-@import '../mixins/base';
-@import '../buttons/variables';
-@import '../mixins/browser';
+@import 'defaultIconMap';
+@import 'largeIconMap';
+@import 'socialIconMap';
 @import 'mixins';
+@import '../mixins/browser';
 
-%icon {
-  content: "";
-  display: block;
-  background-image: url("../images/icons.png");
-  background-image: none, url("../images/icons.svg");
-  background-repeat: no-repeat;
-  @include _square(map_get($spriteDimensions, "iconDimension"));
-  background-size: 100%;
-}
+@include create_icons($defaultIconsMap, true) {
+  background-image: none, url("../images/default-icons.svg");
+};
 
-@each $colour in $iconColours {
-  @include create_icons($colour) {
-    @extend %icon;
-  };
-}
+@include create_icons($largeIconsMap, true) {
+  background-image: none, url("../images/large-icons.svg");
+};
 
-.icon-quickview-black {
+@include create_icons($socialIconsMap, true) {
+  background-image: none, url("../images/social-icons.svg");
+};
+
+#{$iconPrefix}quickview-black, #{$iconPrefix}quickview-grey {
   &:before {
-    @extend %icon;
-    background-image: none, url("../images/Quickview_Symbol_Black_24x24.svg");
-    background-size: 175%;
-    background-position: 50% 50%;
-    @include _square(24px);
+    height: 24px;
+    width: 24px;
   }
 }
 
 @include viewport(mobile) {
-  @each $colour in $iconColours {
-    @include create_icons($colour) {
-      margin-top: -1px;
-      @include _square(14px);
-    }
-  }
-}
-
-// hacky overrides
-.icon-arrow-right-lrg-black, .icon-arrow-left-lrg-black, .icon-arrow-right-lrg-grey, .icon-arrow-left-lrg-grey {
-  &:before {
-    height:17px;
-    width:17px;
+  @include create_icons($largeIconsMap) {
+    @include _square(18px);
   }
 }

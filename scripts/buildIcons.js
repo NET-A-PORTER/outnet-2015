@@ -16,7 +16,7 @@ var sprites = {
   large: { width: 1.5, height: 1.5 },
   social: { width: 2, height: 2 }
 };
-var mapDest = "../../icons/revamped/";
+var mapDest = "../../icons/";
 
 function resizer(opts) {
   return function(shape, sprite, callback) {
@@ -38,7 +38,7 @@ var defaultOptions = {
       bust: false,
       sprite: 'icons',
       layout: 'horizontal',
-      prefix: '.revamped-icon-%s',
+      prefix: '.icon-%s',
       render: {
         scss: {
           template: "icons/templates/sprite-map.hbs",

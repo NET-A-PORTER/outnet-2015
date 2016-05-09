@@ -10,7 +10,7 @@ var objectAssign = require('object-assign');
 var co = require('co');
 var promisify = require('es6-promisify');
 
-var defaultSize = 12;
+var defaultSize = 10;
 var sprites = {
   default: { width: 1, height: 1 },
   large: { width: 1.5, height: 1.5 },

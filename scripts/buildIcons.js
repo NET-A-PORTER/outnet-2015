@@ -9,22 +9,9 @@ var mkdirp = require('mkdirp');
 var objectAssign = require('object-assign');
 var co = require('co');
 var promisify = require('es6-promisify');
+var config = require('../config').icons;
 
-var defaultSize = 10;
-var sprites = {
-  default: { width: 1, height: 1 },
-  large: { width: 1.5, height: 1.5 },
-  social: { width: 2, height: 2 }
-};
-var mapDest = "../../icons/";
-
-function resizer(opts) {
-  return function(shape, sprite, callback) {
-    shape.width = defaultSize * opts.width;
-    shape.height = defaultSize * opts.height;
-    callback(null);
-  }
-}
+var sprites = config.sprites
 
 var defaultOptions = {
   dest: 'icons/images',
@@ -37,7 +24,7 @@ var defaultOptions = {
       dest: '.',
       bust: false,
       sprite: 'icons',
-      layout: 'horizontal',
+      layout: config.layout,
       prefix: '.icon-%s',
       render: {
         scss: {
@@ -49,21 +36,28 @@ var defaultOptions = {
   }
 };
 
+function resizer(opts) {
+  return function(shape, sprite, callback) {
+    shape.width = config.width * opts.width;
+    shape.height = config.height * opts.height;
+    callback(null);
+  }
+}
+
+function getOptions(name) {
+  var options = objectAssign({}, defaultOptions);
+  options.variables = { name: name };
+  options.shape.transform.push({ resize: resizer(sprites[name]) });
+  options.mode.css.sprite = name + '-icons';
+  options.mode.css.render.scss.dest = '../../icons/_' + name + 'IconMap';
+  return options;
+}
+
 function * SpriteCompiler(directory) {
   for(var name of Object.keys(sprites)) {
-
+    var spriter = new SVGSpriter(getOptions(name));
     var cwd = directory + '/' + name;
-
     var files = yield promisify(glob)('**/*.svg', {cwd: cwd})
-
-    var options = objectAssign({}, defaultOptions);
-    options.variables = { name: name };
-    options.shape.transform.push({ resize: resizer(sprites[name]) });
-    options.mode.css.sprite = name + '-icons';
-    options.mode.css.render.scss.dest = mapDest + '_' + name + 'IconMap';
-
-    var spriter = new SVGSpriter(options);
-
     files.forEach(function(file) {
       var filePath = pathUtil.join(cwd, file);
       spriter.add(new File({
@@ -72,7 +66,6 @@ function * SpriteCompiler(directory) {
         contents: fs.readFileSync(filePath)
       }));
     });
-
 
     spriter.compile(function(err, result, data) {
       if(err) {
@@ -89,5 +82,3 @@ function * SpriteCompiler(directory) {
 };
 
 co(SpriteCompiler(__dirname + '/../icons/images/sprite'));
-
-module.exports = SpriteCompiler;

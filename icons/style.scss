@@ -17,13 +17,13 @@
 };
 
 @include icon_size(
-  (#{$iconPrefix}quickview-black, #{$iconPrefix}quickview-grey),
-  (width: 24px, height: 24px)
+  $icons: (#{$iconPrefix}quickview-black, #{$iconPrefix}quickview-grey),
+  $size: 24px
 );
 
 @include viewport(mobile) {
   @include icon_size(
-    $largeIcons,
-    (width: 18px, height: 18px)
+    $icons: $largeIcons,
+    $size: 18px
   );
 }

@@ -33,21 +33,21 @@ $iconPrefix: '.icon-';
   }
 }
 
-@mixin icon_size($icons: (), $size: ()) {
+@mixin icon_size($icons: (), $size: 10px) {
   @if(length($icons) > 0) {
     @each $icon in $icons {
       #{$icon} {
         &:before {
-          width: map_get($size, "width");
-          height: map_get($size, "height");
+          width: $size;
+          height: $size;
           @content;
         }
       }
     }
   } @else {
     &:before {
-      width: map_get($size, "width");
-      height: map_get($size, "height");
+      width: $size;
+      height: $size;
       @content;
     }
   }

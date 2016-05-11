@@ -20,6 +20,7 @@ document:
     <a class="icon-minus-grey btn btn-disabled"/></a>
     <a class="icon-plus-grey btn btn-disabled"/></a>
     <a class="icon-search-grey btn btn-disabled"/></a>
+    <a class="icon-lock-grey btn btn-disabled"></a>
     <br/>
     <a class="icon-arrow-down-white btn btn-primary"></a>
     <a class="icon-arrow-left-white btn btn-primary"/></a>
@@ -29,6 +30,7 @@ document:
     <a class="icon-minus-white btn btn-primary"/></a>
     <a class="icon-plus-white btn btn-primary"/></a>
     <a class="icon-search-white btn btn-primary"/></a>
+    <a class="icon-lock-white btn btn-primary"/></a>
 - title: Large icons
   disable: false
   markup: |

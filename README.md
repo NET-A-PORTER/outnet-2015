@@ -8,7 +8,7 @@ The most fashionable styles at your fingertips
 
 Add the following code to the `<head>` of your page(s).
 ```html
-<link rel="stylesheet" href="//cache.theoutnet.com/preston-assets/1.2.7/css/outnet-2015.css">
+<link rel="stylesheet" href="//cache.theoutnet.com/preston-assets/1.7.3/css/outnet-2015.css">
 ```
 
 You can install the sass version via [bower](http://bower.io).

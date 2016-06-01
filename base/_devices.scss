@@ -20,6 +20,6 @@ $tabletLandscapeMin: map-deep-get($breakpoints, 'tablet', 'landscape', 'min') + 
 $tabletLandscapeMax: map-deep-get($breakpoints, 'tablet', 'landscape', 'max') + 0px;
 
 $tabletPortraitMin: map-deep-get($breakpoints, 'tablet', 'portrait', 'min') + 0px;
-$tabletPortraitMax: map-deep-get($breakpoints, 'tablet', 'portrait', 'min') + 0px;
+$tabletPortraitMax: map-deep-get($breakpoints, 'tablet', 'portrait', 'max') + 0px;
 
 $desktop: map-deep-get($breakpoints, 'desktop', 'min') + 0px;

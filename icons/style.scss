@@ -1,6 +1,7 @@
 @import 'defaultIconMap';
 @import 'largeIconMap';
 @import 'socialIconMap';
+@import 'myaccountIconMap';
 @import 'mixins';
 @import '../mixins/browser';
 
@@ -14,6 +15,10 @@
 
 @include create_icons($socialIconMap, true) {
   background-image: none, url("../images/social-icons.svg");
+};
+
+@include create_icons($myaccountIconMap, true) {
+  background-image: none, url("../images/myaccount-icons.svg");
 };
 
 @include icon_size(

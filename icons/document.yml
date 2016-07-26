@@ -58,3 +58,15 @@ document:
     <a class="icon-social-logo-Instagram-white btn btn-primary"></a>
     <a class="icon-social-logo-Pinterest-white btn btn-primary"></a>
     <a class="icon-social-logo-Twitter-white btn btn-primary"></a>
+- title: Account icons
+  disable: false
+  markup: |
+    <a class="icon-account-address btn"/></a>
+    <a class="icon-email-pref btn"></a>
+    <a class="icon-gift-credit btn"></a>
+    <a class="icon-orders btn"/></a>
+    <a class="icon-save-payment btn"></a>
+    <a class="icon-size-pref btn"></a>
+    <a class="icon-store-credit btn"/></a>
+    <a class="icon-update-password btn"></a>
+    <a class="icon-wishlist btn"></a>

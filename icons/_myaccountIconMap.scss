@@ -1,0 +1,58 @@
+$myaccountIconMap: (
+    account-address: (
+      coordinates: 0 50%,
+      width: 20px,
+      height: 20px,
+      selector: '.icon-account-address'
+    ),
+    email-pref: (
+      coordinates: 12.5% 50%,
+      width: 20px,
+      height: 20px,
+      selector: '.icon-email-pref'
+    ),
+    gift-credit: (
+      coordinates: 25% 50%,
+      width: 20px,
+      height: 20px,
+      selector: '.icon-gift-credit'
+    ),
+    orders: (
+      coordinates: 37.5% 50%,
+      width: 20px,
+      height: 20px,
+      selector: '.icon-orders'
+    ),
+    save-payment: (
+      coordinates: 50% 50%,
+      width: 20px,
+      height: 20px,
+      selector: '.icon-save-payment'
+    ),
+    size-pref: (
+      coordinates: 62.5% 50%,
+      width: 20px,
+      height: 20px,
+      selector: '.icon-size-pref'
+    ),
+    store-credit: (
+      coordinates: 75% 50%,
+      width: 20px,
+      height: 20px,
+      selector: '.icon-store-credit'
+    ),
+    update-password: (
+      coordinates: 87.5% 50%,
+      width: 20px,
+      height: 20px,
+      selector: '.icon-update-password'
+    ),
+    wishlist: (
+      coordinates: 100% 50%,
+      width: 20px,
+      height: 20px,
+      selector: '.icon-wishlist'
+    ),
+);
+
+$myaccountIcons: ('.icon-account-address', '.icon-email-pref', '.icon-gift-credit', '.icon-orders', '.icon-save-payment', '.icon-size-pref', '.icon-store-credit', '.icon-update-password', '.icon-wishlist', );

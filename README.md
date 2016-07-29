@@ -13,11 +13,11 @@ Add the following code to the `<head>` of your page(s).
 
 You can install the sass version via [npm](https://www.npmjs.com/) or [bower](http://bower.io).
 ```bash
-npm install outnet-2015
+npm install --save outnet-2015
 ```
 
 ```bash
-bower install outnet-2015
+bower install --save outnet-2015
 ```
 
 ## Build
@@ -30,9 +30,12 @@ Regenerates breakpoints and icons (if you change `device-breakpoints.json` or if
 
 ## Upgrading
 
-You can upgrade your installed version via [bower](http://bower.io).
 ```bash
 bower install --save outnet-2015#new-version-number
+
+// or
+
+npm install --save outnet-2015#new-version-number
 ```
 
 ## Usage

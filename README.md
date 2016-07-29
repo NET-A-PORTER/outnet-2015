@@ -3,7 +3,7 @@
 The most fashionable styles at your fingertips
 
 [![Travis](https://img.shields.io/travis/NET-A-PORTER/outnet-2015.svg?maxAge=2592000)](https://travis-ci.org/NET-A-PORTER/outnet-2015)
-![https://img.shields.io/bower/v/outnet-2015.svg](https://img.shields.io/bower/v/outnet-2015.svg)
+[![Bower](https://img.shields.io/bower/v/outnet-2015.svg?maxAge=2592000)]()
 [![npm](https://img.shields.io/npm/v/outnet-2015.svg?maxAge=2592000)](https://www.npmjs.com/package/outnet-2015)
 
 ## Installation

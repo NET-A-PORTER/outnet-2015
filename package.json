@@ -1,6 +1,6 @@
 {
   "name": "outnet-2015",
-  "version": "1.7.8",
+  "version": "1.7.9",
   "description": "![https://img.shields.io/bower/v/outnet-2015.svg](https://img.shields.io/bower/v/outnet-2015.svg)",
   "main": "index.js",
   "repository": {

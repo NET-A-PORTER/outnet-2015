@@ -11,7 +11,11 @@ Add the following code to the `<head>` of your page(s).
 <link rel="stylesheet" href="//cache.theoutnet.com/preston-assets/1.7.3/css/outnet-2015.css">
 ```
 
-You can install the sass version via [bower](http://bower.io).
+You can install the sass version via [npm](https://www.npmjs.com/) or [bower](http://bower.io).
+```bash
+npm install outnet-2015
+```
+
 ```bash
 bower install outnet-2015
 ```
@@ -22,7 +26,7 @@ bower install outnet-2015
 npm run build
 ```
 Regenerates breakpoints and icons (if you change `device-breakpoints.json` or if you add a new icon).
- 
+
 
 ## Upgrading
 

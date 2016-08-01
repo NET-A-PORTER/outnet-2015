@@ -49,7 +49,7 @@ function getOptions(name) {
   options.variables = { name: name };
   options.shape.transform.push({ resize: resizer(sprites[name]) });
   options.mode.css.sprite = name + '-icons';
-  options.mode.css.render.scss.dest = '../../icons/_' + name + 'IconMap';
+  options.mode.css.render.scss.dest = '../../icons/maps/_' + name + 'Icons';
   return options;
 }
 

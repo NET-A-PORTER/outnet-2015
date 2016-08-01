@@ -27,9 +27,12 @@
     "build": "npm run build:breakpoints && npm run build:icons",
     "build:breakpoints": "json-sass -i device_breakpoints.json -o ./base/_breakpoints.scss -p '$breakpoints:' ",
     "build:icons": "node --harmony scripts/buildIcons.js",
-    "version": "mversion"
+    "version": "mversion",
+    "test": "mocha"
   },
   "devDependencies": {
-    "json-sass": "^1.3.5"
+    "json-sass": "^1.3.5",
+    "mocha": "^3.0.0",
+    "sass-true": "^2.1.2"
   }
 }

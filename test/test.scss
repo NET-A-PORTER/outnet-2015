@@ -1,0 +1,33 @@
+@import "true";
+
+@mixin font-size($size) {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+@include test-module('Utilities') {
+
+  // Testing Functions
+  @include test('List Length [function]') {
+    $base: 1, 1, 1;
+
+    $test: length($base);
+    $expect: 3;
+    @include assert-equal($test, $expect,
+      'Returns the sum of two numeric maps');
+  }
+
+  // Testing Mixins
+  @include test('Font Size [mixin]') {
+    @include assert('Outputs a font size and line height based on keyword.') {
+      @include output {
+        @include font-size(large);
+      }
+
+      @include expect {
+        font-size: 2rem;
+        line-height: 3rem;
+      }
+    }
+  }
+}

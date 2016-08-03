@@ -15,6 +15,7 @@
     "package.json",
     "scripts/",
     "**/templates",
-    "config.js"
+    "config.js",
+    "test"
   ]
 }

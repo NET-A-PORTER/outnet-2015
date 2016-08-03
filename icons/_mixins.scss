@@ -2,6 +2,18 @@
 
 $iconPrefix: '.icon-';
 
+@mixin create_glyphs($glyphMap) {
+  @each $glyph, $glyphInfo in $glyphMap {
+    #{$iconPrefix}#{$glyph} {
+      &:before {
+        content: map-get($glyphInfo, 'isoContent');
+        color: map-get($glyphInfo, 'color');
+        @content;
+      }
+    }
+  }
+}
+
 @mixin create_icons($iconMap, $size: false) {
   @each $icon, $iconInfo in $iconMap {
     #{$iconPrefix}#{$icon} {

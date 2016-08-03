@@ -1,5 +1,5 @@
 document:
-- title: Small icons
+- title: Desktop icons
   disable: false
   markup: |
     <a class="icon-arrow-down-black btn"></a>
@@ -9,8 +9,6 @@ document:
     <a class="icon-cross-black btn"/></a>
     <a class="icon-minus-black btn"/></a>
     <a class="icon-plus-black btn"/></a>
-    <a class="icon-search-black btn"/></a>
-    <a class="icon-lock-black btn"></a>
     <br/>
     <a class="icon-arrow-down-grey btn btn-disabled"></a>
     <a class="icon-arrow-left-grey btn btn-disabled"/></a>
@@ -19,8 +17,6 @@ document:
     <a class="icon-cross-grey btn btn-disabled"/></a>
     <a class="icon-minus-grey btn btn-disabled"/></a>
     <a class="icon-plus-grey btn btn-disabled"/></a>
-    <a class="icon-search-grey btn btn-disabled"/></a>
-    <a class="icon-lock-grey btn btn-disabled"></a>
     <br/>
     <a class="icon-arrow-down-white btn btn-primary"></a>
     <a class="icon-arrow-left-white btn btn-primary"/></a>
@@ -29,23 +25,44 @@ document:
     <a class="icon-cross-white btn btn-primary"/></a>
     <a class="icon-minus-white btn btn-primary"/></a>
     <a class="icon-plus-white btn btn-primary"/></a>
-    <a class="icon-search-white btn btn-primary"/></a>
-    <a class="icon-lock-white btn btn-primary"/></a>
-- title: Large icons
+- title: Mobile icons
   disable: false
   markup: |
+    <a class="icon-arrow-down-lrg-black btn"></a>
     <a class="icon-arrow-left-lrg-black btn"/></a>
     <a class="icon-arrow-right-lrg-black btn"/></a>
+    <a class="icon-arrow-up-lrg-black btn"/></a>
+    <a class="icon-cross-lrg-black btn"/></a>
+    <a class="icon-minus-lrg-black btn"/></a>
+    <a class="icon-plus-lrg-black btn"/></a>
     <br/>
+    <a class="icon-arrow-down-lrg-grey btn btn-disabled"></a>
     <a class="icon-arrow-left-lrg-grey btn btn-disabled"/></a>
     <a class="icon-arrow-right-lrg-grey btn btn-disabled"/></a>
+    <a class="icon-arrow-up-lrg-grey btn btn-disabled"/></a>
+    <a class="icon-cross-lrg-grey btn btn-disabled"/></a>
+    <a class="icon-minus-lrg-grey btn btn-disabled"/></a>
+    <a class="icon-plus-lrg-grey btn btn-disabled"/></a>
     <br/>
+    <a class="icon-arrow-down-lrg-white btn btn-primary"></a>
     <a class="icon-arrow-left-lrg-white btn btn-primary"/></a>
     <a class="icon-arrow-right-lrg-white btn btn-primary"/></a>
+    <a class="icon-arrow-up-lrg-white btn btn-primary"/></a>
+    <a class="icon-cross-lrg-white btn btn-primary"/></a>
+    <a class="icon-minus-lrg-white btn btn-primary"/></a>
+    <a class="icon-plus-lrg-white btn btn-primary"/></a>
+- title: Other icons
+  disable: false
+  markup: |
+    <a class="icon-quickview btn"/></a>
+    <a class="icon-shopping-bag-empty btn"/></a>
+    <a class="icon-shopping-bag-full btn"/></a>
+    <a class="icon-burger-menu btn"/></a>
+    <a class="icon-search btn"/></a>
+    <a class="icon-wishlist btn"/></a>
 - title: Social icons
   disable: false
   markup: |
-    <a class="icon-quickview-black btn"/></a>
     <a class="icon-social-logo-Facebook-black btn"></a>
     <a class="icon-social-logo-GooglePlus btn"></a>
     <a class="icon-social-logo-Instagram btn"></a>

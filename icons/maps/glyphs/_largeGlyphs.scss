@@ -1,0 +1,88 @@
+@import "../../../mixins/colours";
+
+$largeGlyphMap: (
+    arrow-down-lrg-black: (
+      isoContent: "\21A7",
+      color: $black
+    ),
+    arrow-down-lrg-grey: (
+      isoContent: "\21A7",
+      color: $darkGreySelected
+    ),
+    arrow-down-lrg-white: (
+      isoContent: "\21A7",
+      color: $white
+    ),
+    arrow-left-lrg-black: (
+      isoContent: "\21A4",
+      color: $black
+    ),
+    arrow-left-lrg-grey: (
+      isoContent: "\21A4",
+      color: $darkGreySelected
+    ),
+    arrow-left-lrg-white: (
+      isoContent: "\21A4",
+      color: $white
+    ),
+    arrow-right-lrg-black: (
+      isoContent: "\21A6",
+      color: $black
+    ),
+    arrow-right-lrg-grey: (
+      isoContent: "\21A6",
+      color: $darkGreySelected
+    ),
+    arrow-right-lrg-white: (
+      isoContent: "\21A6",
+      color: $white
+    ),
+    arrow-up-lrg-black: (
+      isoContent: "\21A5",
+      color: $black
+    ),
+    arrow-up-lrg-grey: (
+      isoContent: "\21A5",
+      color: $darkGreySelected
+    ),
+    arrow-up-lrg-white: (
+      isoContent: "\21A5",
+      color: $white
+    ),
+    cross-lrg-black: (
+      isoContent: "\2613",
+      color: $black
+    ),
+    cross-lrg-grey: (
+      isoContent: "\2613",
+      color: $darkGreySelected
+    ),
+    cross-lrg-white: (
+      isoContent: "\2613",
+      color: $white
+    ),
+    minus-lrg-black: (
+      isoContent: "\268A",
+      color: $black
+    ),
+    minus-lrg-grey: (
+      isoContent: "\268A",
+      color: $darkGreySelected
+    ),
+    minus-lrg-white: (
+      isoContent: "\268A",
+      color: $white
+    ),
+    plus-lrg-black: (
+      isoContent: "\271A",
+      color: $black
+    ),
+    plus-lrg-grey: (
+      isoContent: "\271A",
+      color: $darkGreySelected
+    ),
+    plus-lrg-white: (
+      isoContent: "\271A",
+      color: $white
+    )
+);

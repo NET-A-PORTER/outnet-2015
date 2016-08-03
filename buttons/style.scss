@@ -10,7 +10,7 @@ input[type=submit],
 	color: $black;
 	cursor: pointer;
 	display: inline-block;
-	font-family: FuturaBook;
+	font-family: "Body-WebS";
 	font-size: 15px;
 	letter-spacing: 1.3px;
 	line-height: 1.2em;
@@ -55,7 +55,7 @@ input[type=submit],
 	&.btn-selector-single-1:hover {
 		background: $black;
 		border-color: $black;
-		color: $white;		
+		color: $white;
 	}
 	&.btn-selector-single-2:hover {
 		background: $greySelected;
@@ -94,7 +94,7 @@ input[type=submit],
 	&.btn-disabled,
 	&.btn-disabled:hover {
 		background: $greySelected;
-		border: 1px solid $greySelected;		
+		border: 1px solid $greySelected;
 		color: $darkGreySelected;
 		cursor: default;
 		outline: none;

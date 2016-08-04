@@ -14,3 +14,9 @@ deploy:
   on:
     tags: true
     repo: NET-A-PORTER/outnet-2015
+notifications:
+  webhooks:
+    urls:
+      - https://preston-nap-pr-generator.herokuapp.com/webhook
+    on_success: always
+    on_failure: never

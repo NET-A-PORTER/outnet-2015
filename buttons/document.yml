@@ -71,7 +71,6 @@ document:
     <a class="btn btn-selector-multi btn-selector-active" href="#" role="button">Filter 2</a>
     <a class="btn btn-selector-multi" href="#" role="button">Filter 3</a>
 - title: Button icons
-  disable: true
   detail: This should be used for call-to actions, especially on interactive components such as dropdowns. Is responsive.
   markup: |
     <a class="btn btn-icon-left">

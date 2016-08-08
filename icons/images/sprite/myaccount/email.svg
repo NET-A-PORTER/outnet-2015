@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="16px" viewBox="0 0 22 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Phase-1.5---V5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.5_MyAccount_Desktop-_07_OrdersB_Reserved" transform="translate(-71.000000, -1235.000000)">
+            <g id="Page-1" transform="translate(71.000000, 1235.000000)">
+                <polygon id="Fill-1" fill="#FFFFFF" points="11 9.637 2 2.989 2 14 20 14 20 2.989"></polygon>
+                <polygon id="Fill-2" fill="#FFFFFF" points="18.625 2 3.562 2 11 7.484"></polygon>
+                <path d="M0,16 L22,16 L22,0 L0,0 L0,16 Z M3.562,2 L18.625,2 L11,7.484 L3.562,2 Z M20,2.989 L20,14 L2,14 L2,2.989 L11.048,9.637 L20,2.989 Z" id="Fill-3" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

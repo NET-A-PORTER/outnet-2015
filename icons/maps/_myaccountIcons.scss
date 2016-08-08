@@ -6,43 +6,49 @@ $myaccountIconMap: (
       selector: '.icon-account-address'
     ),
     email-pref: (
-      coordinates: 12.5% 50%,
+      coordinates: 11.11111111111111% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-email-pref'
     ),
     gift-credit: (
-      coordinates: 25% 50%,
+      coordinates: 22.22222222222222% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-gift-credit'
     ),
     orders: (
-      coordinates: 37.5% 50%,
+      coordinates: 33.333333333333336% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-orders'
     ),
+    phone: (
+      coordinates: 44.44444444444444% 50%,
+      width: 20px,
+      height: 20px,
+      selector: '.icon-phone'
+    ),
     save-payment: (
-      coordinates: 50% 50%,
+      coordinates: 55.55555555555556% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-save-payment'
     ),
     size-pref: (
-      coordinates: 62.5% 50%,
+      coordinates: 66.66666666666667% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-size-pref'
     ),
     store-credit: (
-      coordinates: 75% 50%,
+      coordinates: 77.77777777777777% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-store-credit'
     ),
     update-password: (
-      coordinates: 87.5% 50%,
+      coordinates: 88.88888888888889% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-update-password'
@@ -55,4 +61,4 @@ $myaccountIconMap: (
     ),
 );
 
-$myaccountIcons: ('.icon-account-address', '.icon-email-pref', '.icon-gift-credit', '.icon-orders', '.icon-save-payment', '.icon-size-pref', '.icon-store-credit', '.icon-update-password', '.icon-wishlist', );
+$myaccountIcons: ('.icon-account-address', '.icon-email-pref', '.icon-gift-credit', '.icon-orders', '.icon-phone', '.icon-save-payment', '.icon-size-pref', '.icon-store-credit', '.icon-update-password', '.icon-wishlist', );

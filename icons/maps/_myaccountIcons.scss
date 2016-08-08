@@ -35,11 +35,11 @@ $myaccountIconMap: (
       height: 20px,
       selector: '.icon-orders'
     ),
-    personal_assistant: (
+    personal-assistant: (
       coordinates: 50% 50%,
       width: 20px,
       height: 20px,
-      selector: '.icon-personal_assistant'
+      selector: '.icon-personal-assistant'
     ),
     phone: (
       coordinates: 58.333333333333336% 50%,
@@ -79,4 +79,4 @@ $myaccountIconMap: (
     ),
 );
 
-$myaccountIcons: ('.icon-account-address', '.icon-email', '.icon-email-pref', '.icon-gift-credit', '.icon-livechat', '.icon-orders', '.icon-personal_assistant', '.icon-phone', '.icon-save-payment', '.icon-size-pref', '.icon-store-credit', '.icon-update-password', '.icon-wishlist', );
+$myaccountIcons: ('.icon-account-address', '.icon-email', '.icon-email-pref', '.icon-gift-credit', '.icon-livechat', '.icon-orders', '.icon-personal-assistant', '.icon-phone', '.icon-save-payment', '.icon-size-pref', '.icon-store-credit', '.icon-update-password', '.icon-wishlist', );

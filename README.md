@@ -34,9 +34,9 @@ Regenerates breakpoints and icons (if you change `device-breakpoints.json` or if
 
 ```bash
 bower install --save outnet-2015#new-version-number
+```
 
-// or
-
+```
 npm install --save outnet-2015#new-version-number
 ```
 

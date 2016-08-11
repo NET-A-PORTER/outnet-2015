@@ -23,6 +23,7 @@ input[type=submit],
 	text-transform: uppercase;
 	vertical-align: middle;
 	white-space: initial;
+  box-shadow: none;
 	&:hover {
 		background: $greySelected;
 		border-color: $greySelected;

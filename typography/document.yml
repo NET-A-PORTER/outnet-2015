@@ -8,8 +8,8 @@ document:
     <h2>Sub-section heading</h2>
 - title: Secondary with tertiary headings
   markup: |
-    <h2>This is a section heading</h2>
-    <h3>This is a sub-section heading</h3>
+    <h3>This is a section heading</h2>
+    <p class="campaign">This is a sub-section heading</p>
 - title: Slugs
   markup: |
     <h3 class="slug">You may also like</h3>
@@ -38,23 +38,50 @@ document:
     </p>
 - title: Hyperlinks
   markup: <a href="#">Lorem ipsum dolor sit amet</a>, consectetur adipiscing elit.
-- title: Quotes
-  detail: Note that hyphens must be used before the quote source
-  markup: |
-    <p class="quote">
-      "We are all apprentices in a craft where no one ever becomes a master."
-      <span class="credit">&mdash; Ernest Hemmingway</span>
-    </p>
 - title: Credits
   markup: |
     <p class="credit">
       Credit Type <span>Credit source</span>
       Credit Type <span>Credit source</span>
     </p>
-- title: Centered credits
-  detail: Centered credits should appear under images
+- title: Breadcrumbs
   markup: |
-    <p class="credit credit-image">
-      Credit Type <span>Credit source</span>
-      Credit Type <span>Credit source</span>
+    <div class="breadcrumbs">
+    	<a href="/en-GB/" title="Home">Home</a>
+    	<a href="/en-GB/Shop/Clothing" title="Clothing">Clothing</a>
+    	<span class="current">Tops</span>
+    </div>
+- title: Promotional Slugs
+  markup: |
+    <p class="slug">
+      I am a promotional slug
+    </p>
+- title: Discount
+  markup: |
+    <p class="discount">
+      Up to <strong>70% off</strong>
+    </p>
+- title: Badges
+  markup: |
+    <div>
+      <p class="badge">
+        Exclusive to the Outnet
+      </p>
+    </div>
+    <div>
+      <p class="badge sold-out">
+        Sold Out
+      </p>
+    </div>
+- title: Notifications
+  markup: |
+    <span class="notification">
+      You have 3 notifications
+    </span>
+- title: Quotes
+  detail: Note that hyphens must be used before the quote source
+  markup: |
+    <p class="quote">
+      "We are all apprentices in a craft where no one ever becomes a master."
+      <span class="credit">&mdash; Ernest Hemmingway</span>
     </p>

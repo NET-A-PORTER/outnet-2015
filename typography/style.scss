@@ -1,3 +1,5 @@
+@import 'mixins';
+
 $screen-s-min: 640px;
 $screen-m-min: 960px;
 
@@ -14,10 +16,6 @@ $fontList: FuturaBook FuturaLight FuturaDemi FuturaMedium;
 			url($prefix + ".ttf") format("truetype"), /* Safari, Android, iOS */
 			url($prefix + ".svg") format("svg");	/* Legacy iOS */
 	}
-}
-
-@mixin fontFamily($name) {
-	font-family: $name, Arial, sans-serif;
 }
 
 b {

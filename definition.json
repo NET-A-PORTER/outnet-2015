@@ -1,7 +1,7 @@
 {
 	"title": "Outnet 2015",
-	"elements": ["base", "alerts", "typography", "buttons", "breadcrumbs", "icons", "grid", "messaging", "forms", "loading-spinner"],
-  "files": ["styles.scss"],
+ 	"elements": ["base", "alerts", "typography", "buttons", "icons", "grid", "messaging", "forms", "loading-spinner"],
+  	"files": ["styles.scss"],
 	"views": [
 		{ "title": "iPad 3/4", "width": "1024px", "height": "768px" },
 		{ "title": "iPhone 5", "width": "320px", "height": "480px" },

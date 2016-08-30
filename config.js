@@ -10,7 +10,6 @@ module.exports = {
       myaccount: { width: 2, height: 2 }
     },
     layout: 'horizontal'
-
   }
 
 }

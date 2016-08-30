@@ -1,0 +1,22 @@
+@import "../../../mixins/colours";
+
+$otherGlyphMap: (
+    quickview: (
+      isoContent: "\2295",
+    ),
+    shopping-bag-empty: (
+      isoContent: "\2610",
+    ),
+    shopping-bag-full: (
+      isoContent: "\2611",
+    ),
+    burger-menu: (
+      isoContent: "\2630",
+    ),
+    search: (
+      isoContent: "\26B2",
+    ),
+    wishlist: (
+      isoContent: "\2764",
+    )
+);

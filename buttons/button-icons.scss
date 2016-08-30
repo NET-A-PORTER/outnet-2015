@@ -13,51 +13,11 @@
       position: absolute;
     }
   }
-  &.btn-icon-left {
-    .btn-icon {
-      top: 15px;
-    }
-  }
-  &.btn-icon-right {
-    .btn-icon {
-      top: 13px;
-      &.icon-arrow-down-black {
-        top: 15px;;
-      }
-    }
-  }
   @each $direction in ('left','right') {
     &.btn-icon-#{$direction} {
       padding-#{$direction}: $btnPadding + 22px;
       .btn-icon {
         #{$direction}: 15px;
-      }
-    }
-  }
-
-  @include viewport(mobile) {
-    @include icon_size(
-      $icons: $defaultIcons,
-      $size: 22px
-    );
-    @include change_icons($defaultIcons) {
-      margin-top: -1px;
-    }
-
-    &.btn-icon-left {
-      .btn-icon {
-        top: 11px;
-      }
-    }
-    &.btn-icon-right {
-      .btn-icon {
-        top: 11px;
-        &.icon-arrow-down-black {
-          top: 11px;
-        }
-        &.icon-arrow-up-black {
-          top: 8px;
-        }
       }
     }
   }

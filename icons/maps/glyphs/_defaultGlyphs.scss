@@ -1,0 +1,88 @@
+@import "../../../mixins/colours";
+
+$defaultGlyphMap: (
+    arrow-down-black: (
+      isoContent: "\2193",
+      color: $black
+    ),
+    arrow-down-grey: (
+      isoContent: "\2193",
+      color: $darkGreySelected
+    ),
+    arrow-down-white: (
+      isoContent: "\2193",
+      color: $white
+    ),
+    arrow-left-black: (
+      isoContent: "\2190",
+      color: $black
+    ),
+    arrow-left-grey: (
+      isoContent: "\2190",
+      color: $darkGreySelected
+    ),
+    arrow-left-white: (
+      isoContent: "\2190",
+      color: $white
+    ),
+    arrow-right-black: (
+      isoContent: "\2192",
+      color: $black
+    ),
+    arrow-right-grey: (
+      isoContent: "\2192",
+      color: $darkGreySelected
+    ),
+    arrow-right-white: (
+      isoContent: "\2192",
+      color: $white
+    ),
+    arrow-up-black: (
+      isoContent: "\2191",
+      color: $black
+    ),
+    arrow-up-grey: (
+      isoContent: "\2191",
+      color: $darkGreySelected
+    ),
+    arrow-up-white: (
+      isoContent: "\2191",
+      color: $white
+    ),
+    cross-black: (
+      isoContent: "\229F",
+      color: $black
+    ),
+    cross-grey: (
+      isoContent: "\229F",
+      color: $darkGreySelected
+    ),
+    cross-white: (
+      isoContent: "\229F",
+      color: $white
+    ),
+    minus-black: (
+      isoContent: "\229F",
+      color: $black
+    ),
+    minus-grey: (
+      isoContent: "\229F",
+      color: $darkGreySelected
+    ),
+    minus-white: (
+      isoContent: "\229F",
+      color: $white
+    ),
+    plus-black: (
+      isoContent: "\229E",
+      color: $black
+    ),
+    plus-grey: (
+      isoContent: "\229E",
+      color: $darkGreySelected
+    ),
+    plus-white: (
+      isoContent: "\229E",
+      color: $white
+    )
+);

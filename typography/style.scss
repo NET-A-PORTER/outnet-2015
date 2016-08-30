@@ -1,17 +1,19 @@
 @import 'mixins';
+@import '../mixins/colours';
 
 $screen-s-min: 640px;
 $screen-m-min: 960px;
 
-$fontDirectory: "../fonts";
-$fontList: FuturaBook FuturaLight FuturaDemi FuturaMedium;
+$fontDirectory: "../fonts/new";
+$fontList: "Body-WebS" "BodyItalic-WebS" "Bold-WebS" "BoldItalic-WebS";
 
 @each $font in $fontList {
-	$prefix: $fontDirectory + '/' + $font;
+	$prefix: $fontDirectory + '/THEOUTNET-' + $font;
 	@font-face {
 		font-family: $font;
 		src:url($prefix + ".eot"); /* IE9 Compat Modes */
 		src:url($prefix + ".eot?#iefix") format('embedded-opentype'), /* IE6-IE8 */
+			url($prefix + ".woff2") format("woff2"), /* Modern Browsers */
 			url($prefix + ".woff") format("woff"), /* Modern Browsers */
 			url($prefix + ".ttf") format("truetype"), /* Safari, Android, iOS */
 			url($prefix + ".svg") format("svg");	/* Legacy iOS */
@@ -19,52 +21,65 @@ $fontList: FuturaBook FuturaLight FuturaDemi FuturaMedium;
 }
 
 b {
-  @include fontFamily(FuturaDemi);
+  @include fontFamily("Body-WebS");
   font-weight: normal;
 }
 
 html,
 body {
-	@include fontFamily(FuturaBook);
+	@include fontFamily("Body-WebS");
 	line-height: 22px;
 	font-size: 13px;
 	letter-spacing: 0.5px;
 }
 
 h1,
-h2 {
-	letter-spacing: 1px;	
-	text-transform: uppercase;
+h2,
+h3 {
 	text-align: center;
 }
 
 h1 {
 	font-size: 22px;
-	line-height: 25px;
+	line-height: 23px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
 }
 
 h2 {
-	font-size:17px;
-	line-height: 25px;
+	font-size: 18px;
+	line-height: 24px;
+  letter-spacing: 1px;
 }
 
 h1 + h2 {
-	@include fontFamily(FuturaBook);
-	color: #777;
+	@include fontFamily("Body-WebS");
 	margin-top: -16px;
 	text-align: center;
 }
 
+h3 {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  & + p.campaign {
+    margin-top: -16px;
+    text-align: center;
+  }
+}
+
 h3.slug {
-	@include fontFamily(FuturaBook);
-	font-size: 17px;
-	letter-spacing: 0.8px;
+	@include fontFamily("Body-WebS");
+	font-size: 18px;
+	letter-spacing: 1px;
+  text-transform: none;
 	margin: 25px 0;
 	padding: 0 15px;
 	position: relative;
 	text-align: center;
 	&:after {
-		background: #d3d3d3;
+		background: $greyBorder;
 		content: "";
 		display: block;
 		height: 2px;
@@ -73,39 +88,72 @@ h3.slug {
 		width: 50px;
 	}
 }
+
 a {
 	color: #000;
-	text-decoration: underline;
+  text-decoration: none;
+  position: relative;
+  box-shadow: inset 0 0px 0 white, inset 0 -2px 0 black;
 }
+
 p {
-	letter-spacing: 0.5px;
+  font-size: 14px;
+	letter-spacing: 0px;
+  line-height: 22px;
+	&.campaign {
+		font-size: 16px;
+    line-height: 25px;
+	}
+	&.informational {
+		font-size: 12px;
+		line-height: 20px;
+	}
 	&.credit {
-		@include fontFamily(FuturaDemi);
-		font-size: 11px;
-		line-height: 25px;
+		@include fontFamily("Body-WebS");
 		max-width: 600px;
 		padding-left: 20px;
 		padding-right: 20px;
 		text-decoration: none;
 		text-transform: lowercase;
 		span {
-			@include fontFamily(FuturaBook);
-			text-decoration: underline;
-			text-transform: none;
+			@include fontFamily("Body-WebS");
+      position: relative;
+      &:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: $black;
+      }
 		}
-		&.credit-image {
-			text-align: center;
-			margin-left: auto;
-			margin-right: auto;
-		}
 	}
-	&.campaign {
-		font-size: 15px;
-	}
-	&.informational {
-		font-size: 11px;
-		line-height: 20px;
-	}
+  &.slug {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &.discount {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    strong {
+      @include fontFamily("Bold-WebS");
+    }
+  }
+  &.badge {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    &.sold-out {
+      color: $greyHeading;
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+  }
 	&.quote {
 		font-size: 22px;
 		line-height: 35px;
@@ -113,11 +161,72 @@ p {
 		padding: 20px;
 		text-align: center;
 		.credit {
-			@include fontFamily(FuturaBook);
+			@include fontFamily("Body-WebS");
 			@extend p.credit;
 			display: block;
 			margin-top: 30px;
 			text-transform: none;
+		}
+	}
+}
+
+span.notification {
+  @include fontFamily("Body-WebS");
+  font-size: 14px;
+  letter-spacing: 0px;
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-left: 3px;
+    margin-right: 4px;
+    vertical-align: middle;
+    background-color: #b90000;
+    border-radius: 6px;
+  }
+}
+
+.breadcrumbs {
+	font-size: 12px;
+  letter-spacing: 0px;
+	text-align: center;
+	> * {
+		display: inline-block;
+		position: relative;
+		margin-right: 15px;
+		color: $greyHeading;
+		text-decoration: none;
+		&:after {
+			content: ' > ';
+			position: absolute;
+			right: -13px;
+			top: 0;
+		}
+		&:last-child:after {
+			display: none;
+		}
+	}
+	a {
+    box-shadow: none;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: $black;
+			visibility: hidden;
+			-webkit-transform: scaleX(0);
+			transform: scaleX(0);
+			-webkit-transition: all 0.4s ease-in-out;
+			transition: all 0.5s ease-in-out;
+    }
+		&:hover:before {
+			-webkit-transform: scaleX(1);
+			transform: scaleX(1);
+			visibility: visible;
 		}
 	}
 }

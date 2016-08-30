@@ -1,17 +1,16 @@
-@import 'maps/defaultIcons';
-@import 'maps/largeIcons';
+@import 'maps/glyphs/defaultGlyphs';
+@import 'maps/glyphs/largeGlyphs';
+@import 'maps/glyphs/otherGlyphs';
 @import 'maps/socialIcons';
 @import 'maps/myaccountIcons';
 @import 'mixins';
 @import '../mixins/browser';
 
-@include create_icons($defaultIconMap, true) {
-  background-image: none, url("../images/default-icons.svg");
-};
+@include create_glyphs($defaultGlyphMap);
 
-@include create_icons($largeIconMap, true) {
-  background-image: none, url("../images/large-icons.svg");
-};
+@include create_glyphs($largeGlyphMap);
+
+@include create_glyphs($otherGlyphMap);
 
 @include create_icons($socialIconMap, true) {
   background-image: none, url("../images/social-icons.svg");
@@ -20,15 +19,3 @@
 @include create_icons($myaccountIconMap, true) {
   background-image: none, url("../images/myaccount-icons.svg");
 };
-
-@include icon_size(
-  $icons: (#{$iconPrefix}quickview-black, #{$iconPrefix}quickview-grey),
-  $size: 24px
-);
-
-@include viewport(mobile) {
-  @include icon_size(
-    $icons: $largeIcons,
-    $size: 18px
-  );
-}

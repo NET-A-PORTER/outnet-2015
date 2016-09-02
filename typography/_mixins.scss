@@ -1,3 +1,21 @@
 @mixin fontFamily($name) {
   font-family: $name, Arial, sans-serif;
 }
+
+@mixin loadFonts() {
+  $fontDirectory: "../fonts/new";
+  $fontList: "Body-WebS" "BodyItalic-WebS" "Bold-WebS" "BoldItalic-WebS";
+
+  @each $font in $fontList {
+    $prefix: $fontDirectory + '/THEOUTNET-' + $font;
+    @font-face {
+      font-family: $font;
+      src:url($prefix + ".eot"); /* IE9 Compat Modes */
+      src:url($prefix + ".eot?#iefix") format('embedded-opentype'), /* IE6-IE8 */
+      url($prefix + ".woff2") format("woff2"), /* Modern Browsers */
+      url($prefix + ".woff") format("woff"), /* Modern Browsers */
+      url($prefix + ".ttf") format("truetype"), /* Safari, Android, iOS */
+      url($prefix + ".svg") format("svg");	/* Legacy iOS */
+    }
+  }
+}

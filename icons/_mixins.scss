@@ -1,10 +1,12 @@
 @import '../mixins/base';
+@import '../typography/mixins';
 
 $iconPrefix: '.icon-';
 
 @mixin create_glyphs($glyphMap) {
   @each $glyph, $glyphInfo in $glyphMap {
     #{$iconPrefix}#{$glyph} {
+      @include fontFamily(Body-WebS);
       &:before {
         content: map-get($glyphInfo, 'isoContent');
         color: map-get($glyphInfo, 'color');

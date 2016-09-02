@@ -151,109 +151,124 @@
             </g>
         </g>
     </g>
-</svg><svg width="20" height="20" viewBox="0 0 23 18" version="1.1" id="save-payment" x="160">
+</svg><svg width="20" height="20" viewBox="0 0 44 44" version="1.1" id="reserved-items" x="160">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon_Reserved_Items</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="aipath-1" points="9.8281 0.19 0.6981 0.19 0.6981 8.1069 9.8281 8.1069 9.8281 0.19"/>
+        <polygon id="aipath-3" points="0 23.8101 20 23.8101 20 1.0001 0 1.0001"/>
+    </defs>
+    <g id="aiStyle-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="aiMyAccount_Icons" transform="translate(-18.000000, -81.000000)">
+            <g id="aiReservedItems" transform="translate(18.000000, 81.000000)">
+                <g id="aiGroup-45" transform="translate(12.000000, 10.000000)">
+                    <g id="aiPage-1">
+                        <g id="aiGroup-3" transform="translate(5.000000, 0.810100)">
+                            <mask id="aimask-2" fill="white">
+                                <use xlink:href="#aipath-1"/>
+                            </mask>
+                            <g id="aiClip-2"/>
+                            <path d="M9.8281,8.1069 L7.8281,8.1069 L7.8261,4.9449 C7.8261,3.1939 6.7961,2.1899 5.0001,2.1899 C3.3731,2.1899 2.6981,3.3719 2.6981,4.0039 L2.6981,5.0039 L0.6981,5.0039 L0.6981,4.0039 C0.6981,2.1699 2.3431,0.1899 5.0001,0.1899 C7.8871,0.1899 9.8261,2.1009 9.8261,4.9449 L9.8281,8.1069 Z" id="aiFill-1" fill="#000000" mask="url(#aimask-2)"/>
+                        </g>
+                        <mask id="aimask-4" fill="white">
+                            <use xlink:href="#aipath-3"/>
+                        </mask>
+                        <g id="aiClip-7"/>
+                        <path d="M2,21.8101 L18,21.8101 L18,10.3101 L2,10.3101 L2,21.8101 Z M0,23.8101 L20,23.8101 L20,8.3101 L0,8.3101 L0,23.8101 Z" id="aiFill-6" fill="#000000" mask="url(#aimask-4)"/>
+                    </g>
+                    <path d="M10.8200692,16.6978085 L10.8200692,18.1349481 C10.8200692,18.6101499 10.4302191,19 9.9550173,19 C9.47866205,19 9.0899654,18.6101499 9.0899654,18.1349481 L9.0899654,16.6978085 C8.44636678,16.378316 8,15.7208766 8,14.9538639 C8,13.8742791 8.87543253,13 9.9550173,13 C11.0334487,13 11.9088812,13.8742791 11.9088812,14.9538639 C11.9088812,15.7208766 11.4625144,16.378316 10.8200692,16.6978085 L10.8200692,16.6978085 Z" id="aiPath" stroke="#000000" fill="#000000"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg><svg width="20" height="20" viewBox="0 0 23 18" version="1.1" id="save-payment" x="180">
     <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
     <title>Payment Details</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="aipath-1" x="4" y="9" width="5" height="5"/>
-        <mask id="aimask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5" height="5" fill="white">
-            <use xlink:href="#aipath-1"/>
+        <rect id="ajpath-1" x="4" y="9" width="5" height="5"/>
+        <mask id="ajmask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5" height="5" fill="white">
+            <use xlink:href="#ajpath-1"/>
         </mask>
     </defs>
-    <g id="aiPhase-1.5---New-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="aiICONS" transform="translate(-411.000000, -8.000000)">
-            <g id="aiPayment-Details" transform="translate(411.125000, 8.000000)">
-                <g id="aiGroup-6">
-                    <use id="aiRectangle-150" stroke="#000000" mask="url(#aimask-2)" stroke-width="3" xlink:href="#aipath-1"/>
-                    <g id="aiPage-1" fill="#000000">
-                        <path d="M0,18 L22,18 L22,0 L0,0 L0,18 Z M2,4 L20,4 L20,2 L2,2 L2,4 Z M2,16 L20,16 L20,6 L2,6 L2,16 Z" id="aiFill-1"/>
+    <g id="ajPhase-1.5---New-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ajICONS" transform="translate(-411.000000, -8.000000)">
+            <g id="ajPayment-Details" transform="translate(411.125000, 8.000000)">
+                <g id="ajGroup-6">
+                    <use id="ajRectangle-150" stroke="#000000" mask="url(#ajmask-2)" stroke-width="3" xlink:href="#ajpath-1"/>
+                    <g id="ajPage-1" fill="#000000">
+                        <path d="M0,18 L22,18 L22,0 L0,0 L0,18 Z M2,4 L20,4 L20,2 L2,2 L2,4 Z M2,16 L20,16 L20,6 L2,6 L2,16 Z" id="ajFill-1"/>
                     </g>
                 </g>
             </g>
         </g>
     </g>
-</svg><svg width="20" height="20" viewBox="0 0 23 15" version="1.1" id="size-pref" x="180">
+</svg><svg width="20" height="20" viewBox="0 0 23 15" version="1.1" id="size-pref" x="200">
     <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
     <title>Size Preferences</title>
     <desc>Created with Sketch.</desc>
     <defs/>
-    <g id="ajPhase-1.5---New-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ajICONS" transform="translate(-333.000000, -11.000000)" fill="#000000">
-            <g id="ajSize-Preferences" transform="translate(333.500000, 11.000000)">
-                <g id="ajPage-1">
-                    <polygon id="ajFill-1" points="19.9998 -0.0003 19.9998 11.0007 11.9998 11.0007 11.9998 2.0007 9.9998 2.0007 9.9998 11.0007 1.9998 11.0007 1.9998 -0.0003 -0.0002 -0.0003 -0.0002 11.0007 -0.0002 13.9997 -0.0002 14.9997 21.9998 14.9997 21.9998 -0.0003"/>
-                    <polygon id="ajFill-2" points="14 9 15 9 15 2.001 14 2.001"/>
-                    <polygon id="ajFill-3" points="17 9 18 9 18 2.001 17 2.001"/>
-                    <polygon id="ajFill-4" points="4 9 5.001 9 5.001 2.001 4 2.001"/>
-                    <polygon id="ajFill-5" points="7 9 8 9 8 2.001 7 2.001"/>
+    <g id="akPhase-1.5---New-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="akICONS" transform="translate(-333.000000, -11.000000)" fill="#000000">
+            <g id="akSize-Preferences" transform="translate(333.500000, 11.000000)">
+                <g id="akPage-1">
+                    <polygon id="akFill-1" points="19.9998 -0.0003 19.9998 11.0007 11.9998 11.0007 11.9998 2.0007 9.9998 2.0007 9.9998 11.0007 1.9998 11.0007 1.9998 -0.0003 -0.0002 -0.0003 -0.0002 11.0007 -0.0002 13.9997 -0.0002 14.9997 21.9998 14.9997 21.9998 -0.0003"/>
+                    <polygon id="akFill-2" points="14 9 15 9 15 2.001 14 2.001"/>
+                    <polygon id="akFill-3" points="17 9 18 9 18 2.001 17 2.001"/>
+                    <polygon id="akFill-4" points="4 9 5.001 9 5.001 2.001 4 2.001"/>
+                    <polygon id="akFill-5" points="7 9 8 9 8 2.001 7 2.001"/>
                 </g>
             </g>
         </g>
     </g>
-</svg><svg width="20" height="20" viewBox="0 0 26 17" version="1.1" id="store-credit" x="200">
+</svg><svg width="20" height="20" viewBox="0 0 26 17" version="1.1" id="store-credit" x="220">
     <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
     <title>Store Credit</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <polygon id="akpath-1" points="0 0 0 14 22.9997 14 22.9997 0 11.49985 0"/>
+        <polygon id="alpath-1" points="0 0 0 14 22.9997 14 22.9997 0 11.49985 0"/>
     </defs>
-    <g id="akPhase-1.5---New-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="akICONS" transform="translate(-660.000000, -9.000000)">
-            <g id="akStore-Credit" transform="translate(660.000000, 9.000000)">
-                <g id="akGroup-4">
-                    <g id="akPage-1-Copy-3">
-                        <polygon id="akFill-3" fill="#000000" points="26 17 2 17 2 15 24 15 24 2 26 2"/>
-                        <g id="akGroup-7">
-                            <mask id="akmask-2" fill="white">
-                                <use xlink:href="#akpath-1"/>
+    <g id="alPhase-1.5---New-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="alICONS" transform="translate(-660.000000, -9.000000)">
+            <g id="alStore-Credit" transform="translate(660.000000, 9.000000)">
+                <g id="alGroup-4">
+                    <g id="alPage-1-Copy-3">
+                        <polygon id="alFill-3" fill="#000000" points="26 17 2 17 2 15 24 15 24 2 26 2"/>
+                        <g id="alGroup-7">
+                            <mask id="almask-2" fill="white">
+                                <use xlink:href="#alpath-1"/>
                             </mask>
-                            <g id="akClip-6"/>
-                            <path d="M19.6637,11.5 C19.6637,10.313 20.2257,9.75 21.3567,9.75 L21.3567,11.5 L19.6637,11.5 Z M1.8567,9.594 C2.9597,9.593 3.5107,10.188 3.5107,11.5 L1.8567,11.5 L1.8567,9.594 Z M3.6427,1.5 C3.6427,2.562 3.1047,3.381 1.8567,3.381 L1.8567,1.5 L3.6427,1.5 Z M21.3567,3.381 C20.1677,3.381 19.4957,2.566 19.5147,1.5 L21.3567,1.5 L21.3567,3.381 Z M18.2527,12 L4.6427,12 C4.6427,10 3.9997,8.125 1.9997,8.156 L1.9997,4.772 C3.9997,4.781 4.7877,3 4.7877,2 L18.1027,2 C18.4297,4 19.9997,4.781 20.9997,4.813 L20.9997,8.25 C18.9997,8.281 18.1647,9 18.2527,12 L18.2527,12 Z M-0.0003,14 L22.9997,14 L22.9997,0 L-0.0003,0 L-0.0003,14 Z" id="akFill-5" fill="#000000" mask="url(#akmask-2)"/>
+                            <g id="alClip-6"/>
+                            <path d="M19.6637,11.5 C19.6637,10.313 20.2257,9.75 21.3567,9.75 L21.3567,11.5 L19.6637,11.5 Z M1.8567,9.594 C2.9597,9.593 3.5107,10.188 3.5107,11.5 L1.8567,11.5 L1.8567,9.594 Z M3.6427,1.5 C3.6427,2.562 3.1047,3.381 1.8567,3.381 L1.8567,1.5 L3.6427,1.5 Z M21.3567,3.381 C20.1677,3.381 19.4957,2.566 19.5147,1.5 L21.3567,1.5 L21.3567,3.381 Z M18.2527,12 L4.6427,12 C4.6427,10 3.9997,8.125 1.9997,8.156 L1.9997,4.772 C3.9997,4.781 4.7877,3 4.7877,2 L18.1027,2 C18.4297,4 19.9997,4.781 20.9997,4.813 L20.9997,8.25 C18.9997,8.281 18.1647,9 18.2527,12 L18.2527,12 Z M-0.0003,14 L22.9997,14 L22.9997,0 L-0.0003,0 L-0.0003,14 Z" id="alFill-5" fill="#000000" mask="url(#almask-2)"/>
                         </g>
                     </g>
-                    <circle id="akOval-20" fill="#000000" cx="11.578125" cy="6.5" r="2.5"/>
+                    <circle id="alOval-20" fill="#000000" cx="11.578125" cy="6.5" r="2.5"/>
                 </g>
             </g>
         </g>
     </g>
-</svg><svg width="20" height="20" viewBox="0 0 37 26" version="1.1" id="update-password" x="220">
+</svg><svg width="20" height="20" viewBox="0 0 37 26" version="1.1" id="update-password" x="240">
     <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
     <title>Password&amp;LogIn</title>
     <desc>Created with Sketch.</desc>
     <defs/>
-    <g id="alStyle-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="alApp_Tab" transform="translate(-22.000000, -527.000000)">
-            <g id="alPassword&amp;LogIn" transform="translate(15.000000, 516.000000)">
-                <g transform="translate(7.000000, 11.000000)" id="alPage-1">
+    <g id="amStyle-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="amApp_Tab" transform="translate(-22.000000, -527.000000)">
+            <g id="amPassword&amp;LogIn" transform="translate(15.000000, 516.000000)">
+                <g transform="translate(7.000000, 11.000000)" id="amPage-1">
                     <g>
-                        <g id="allock">
-                            <path d="M7,4.7562 C7,2.2172 8.858,1.8382 9.955,1.8382 C11.902,1.8382 12.898,2.7352 12.898,4.6342 L12.909,6.9332 L7,6.9332 L7,4.7562 L7,4.7562 Z M14.714,6.9332 L14.712,4.6342 C14.712,1.1922 12.149,0.0002 9.857,0.0002 C7.669,0.0002 5,1.2702 5,4.7562 L5,6.9332 L0,6.9332 L0,21.9332 L20,21.9332 L20,6.9332 L14.714,6.9332 L14.714,6.9332 Z" id="alFill-1" fill="#000000"/>
-                            <path d="M10.8200692,14.6978085 L10.8200692,16.1349481 C10.8200692,16.6101499 10.4302191,17 9.9550173,17 C9.47866205,17 9.0899654,16.6101499 9.0899654,16.1349481 L9.0899654,14.6978085 C8.44636678,14.378316 8,13.7208766 8,12.9538639 C8,11.8742791 8.87543253,11 9.9550173,11 C11.0334487,11 11.9088812,11.8742791 11.9088812,12.9538639 C11.9088812,13.7208766 11.4625144,14.378316 10.8200692,14.6978085 L10.8200692,14.6978085 Z" id="alPath" stroke="#FFFFFF" fill="#FFFFFF"/>
+                        <g id="amlock">
+                            <path d="M7,4.7562 C7,2.2172 8.858,1.8382 9.955,1.8382 C11.902,1.8382 12.898,2.7352 12.898,4.6342 L12.909,6.9332 L7,6.9332 L7,4.7562 L7,4.7562 Z M14.714,6.9332 L14.712,4.6342 C14.712,1.1922 12.149,0.0002 9.857,0.0002 C7.669,0.0002 5,1.2702 5,4.7562 L5,6.9332 L0,6.9332 L0,21.9332 L20,21.9332 L20,6.9332 L14.714,6.9332 L14.714,6.9332 Z" id="amFill-1" fill="#000000"/>
+                            <path d="M10.8200692,14.6978085 L10.8200692,16.1349481 C10.8200692,16.6101499 10.4302191,17 9.9550173,17 C9.47866205,17 9.0899654,16.6101499 9.0899654,16.1349481 L9.0899654,14.6978085 C8.44636678,14.378316 8,13.7208766 8,12.9538639 C8,11.8742791 8.87543253,11 9.9550173,11 C11.0334487,11 11.9088812,11.8742791 11.9088812,12.9538639 C11.9088812,13.7208766 11.4625144,14.378316 10.8200692,14.6978085 L10.8200692,14.6978085 Z" id="amPath" stroke="#FFFFFF" fill="#FFFFFF"/>
                         </g>
-                        <g id="alsquare" transform="translate(14.000000, 15.000000)">
-                            <polygon id="alFill-5" fill="#FFFFFF" points="0 10 22 10 22 0 0 0"/>
-                            <polygon id="alStroke-7" stroke="#000000" stroke-width="2" points="0 10 22 10 22 0 0 0"/>
+                        <g id="amsquare" transform="translate(14.000000, 15.000000)">
+                            <polygon id="amFill-5" fill="#FFFFFF" points="0 10 22 10 22 0 0 0"/>
+                            <polygon id="amStroke-7" stroke="#000000" stroke-width="2" points="0 10 22 10 22 0 0 0"/>
                         </g>
                         <polygon fill="#000000" points="18.7407877 17.9998449 18.7407877 19.5145851 17.2393445 19.0093023 17 19.7805233 18.4881464 20.2858061 17.5584704 21.534608 18.2222081 21.985595 19.1396952 20.7367931 20.082668 22 20.7209199 21.534608 19.7901359 20.2725092 21.2915792 19.7805233 21.0533428 19.0093023 19.5386026 19.5145851 19.5386026 17.9998449"/>
-                        <polygon id="alPage-1-Copy" fill="#000000" points="24.7407877 17.9998449 24.7407877 19.5145851 23.2393445 19.0093023 23 19.7805233 24.4881464 20.2858061 23.5584704 21.534608 24.2222081 21.985595 25.1396952 20.7367931 26.082668 22 26.7209199 21.534608 25.7901359 20.2725092 27.2915792 19.7805233 27.0533428 19.0093023 25.5386026 19.5145851 25.5386026 17.9998449"/>
-                        <polygon id="alPage-1-Copy-3" fill="#000000" points="30.7407877 17.9998449 30.7407877 19.5145851 29.2393445 19.0093023 29 19.7805233 30.4881464 20.2858061 29.5584704 21.534608 30.2222081 21.985595 31.1396952 20.7367931 32.082668 22 32.7209199 21.534608 31.7901359 20.2725092 33.2915792 19.7805233 33.0533428 19.0093023 31.5386026 19.5145851 31.5386026 17.9998449"/>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg><svg width="20" height="20" viewBox="0 0 19 18" version="1.1" id="wishlist" x="240">
-    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
-    <title>Wishlist</title>
-    <desc>Created with Sketch.</desc>
-    <defs/>
-    <g id="amPhase-1.5---New-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="amICONS" transform="translate(-108.000000, -10.000000)" fill="#000000">
-            <g id="amWishlist" transform="translate(108.625000, 10.000000)">
-                <g id="amIcon_Heart_OL">
-                    <g id="amLayer_1">
-                        <path d="M4.41,13.5 C2.34,11.61 0,9.27 0,5.94 C0,2.43 1.98,0.18 5.04,0.18 C7.02,0.18 8.28,1.26 9.09,2.16 C9.9,1.35 11.25,0.18 12.87,0.18 C15.12,0.18 18,1.71 18,5.94 C18,9.09 16.11,10.89 14.4,12.6 C14.13,12.87 13.86,13.14 13.59,13.5 C12.33,14.85 11.25,15.84 10.53,16.65 C10.08,17.19 9.18,17.91 9.18,17.91 C9.18,17.91 5.67,14.58 4.41,13.5 L4.41,13.5 Z M11.52,12.69 C13.05,11.16 16.02,8.28 16.02,5.94 C16.02,2.79 14.04,2.25 12.96,2.25 C11.34,2.25 9.99,4.23 9.99,4.32 C9.72,4.68 9.27,5.67 9.27,5.67 C9.27,5.67 8.64,4.59 8.46,4.14 C8.28,3.78 7.29,2.25 5.22,2.25 C2.7,2.25 2.16,4.23 2.16,5.94 C2.16,7.92 3.24,9.72 5.85,11.97 C7.65,13.59 8.55,14.49 9.27,15.21 L9.27,15.12 C9.18,15.12 10.53,13.68 11.52,12.69 L11.52,12.69 Z" id="amShape"/>
+                        <polygon id="amPage-1-Copy" fill="#000000" points="24.7407877 17.9998449 24.7407877 19.5145851 23.2393445 19.0093023 23 19.7805233 24.4881464 20.2858061 23.5584704 21.534608 24.2222081 21.985595 25.1396952 20.7367931 26.082668 22 26.7209199 21.534608 25.7901359 20.2725092 27.2915792 19.7805233 27.0533428 19.0093023 25.5386026 19.5145851 25.5386026 17.9998449"/>
+                        <polygon id="amPage-1-Copy-3" fill="#000000" points="30.7407877 17.9998449 30.7407877 19.5145851 29.2393445 19.0093023 29 19.7805233 30.4881464 20.2858061 29.5584704 21.534608 30.2222081 21.985595 31.1396952 20.7367931 32.082668 22 32.7209199 21.534608 31.7901359 20.2725092 33.2915792 19.7805233 33.0533428 19.0093023 31.5386026 19.5145851 31.5386026 17.9998449"/>
                     </g>
                 </g>
             </g>

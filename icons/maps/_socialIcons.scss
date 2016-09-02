@@ -1,66 +1,66 @@
 $socialIconMap: (
     social-logo-Email-white: (
-      coordinates: 15.384615384615385% 50%,
+      coordinates: 0 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-social-logo-Email-white'
     ),
     social-logo-Facebook-black: (
-      coordinates: 23.076923076923077% 50%,
+      coordinates: 9.090909090909092% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-social-logo-Facebook-black'
     ),
     social-logo-Facebook-white: (
-      coordinates: 30.76923076923077% 50%,
+      coordinates: 18.181818181818183% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-social-logo-Facebook-white'
     ),
     social-logo-GooglePlus: (
-      coordinates: 38.46153846153846% 50%,
+      coordinates: 27.272727272727273% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-social-logo-GooglePlus'
     ),
     social-logo-GooglePlus-white: (
-      coordinates: 46.15384615384615% 50%,
+      coordinates: 36.36363636363637% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-social-logo-GooglePlus-white'
     ),
     social-logo-Instagram: (
-      coordinates: 53.84615384615385% 50%,
+      coordinates: 45.45454545454545% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-social-logo-Instagram'
     ),
     social-logo-Instagram-white: (
-      coordinates: 61.53846153846154% 50%,
+      coordinates: 54.54545454545455% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-social-logo-Instagram-white'
     ),
     social-logo-Pinterest: (
-      coordinates: 69.23076923076923% 50%,
+      coordinates: 63.63636363636363% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-social-logo-Pinterest'
     ),
     social-logo-Pinterest-white: (
-      coordinates: 76.92307692307692% 50%,
+      coordinates: 72.72727272727273% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-social-logo-Pinterest-white'
     ),
     social-logo-Twitter: (
-      coordinates: 84.61538461538461% 50%,
+      coordinates: 81.81818181818181% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-social-logo-Twitter'
     ),
     social-logo-Twitter-white: (
-      coordinates: 92.3076923076923% 50%,
+      coordinates: 90.9090909090909% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-social-logo-Twitter-white'
@@ -73,4 +73,4 @@ $socialIconMap: (
     ),
 );
 
-$socialIcons: ('.icon-quickview-black', '.icon-quickview-white', '.icon-social-logo-Email-white', '.icon-social-logo-Facebook-black', '.icon-social-logo-Facebook-white', '.icon-social-logo-GooglePlus', '.icon-social-logo-GooglePlus-white', '.icon-social-logo-Instagram', '.icon-social-logo-Instagram-white', '.icon-social-logo-Pinterest', '.icon-social-logo-Pinterest-white', '.icon-social-logo-Twitter', '.icon-social-logo-Twitter-white', '.icon-social-logo-YouTube', );
+$socialIcons: ('.icon-social-logo-Email-white', '.icon-social-logo-Facebook-black', '.icon-social-logo-Facebook-white', '.icon-social-logo-GooglePlus', '.icon-social-logo-GooglePlus-white', '.icon-social-logo-Instagram', '.icon-social-logo-Instagram-white', '.icon-social-logo-Pinterest', '.icon-social-logo-Pinterest-white', '.icon-social-logo-Twitter', '.icon-social-logo-Twitter-white', '.icon-social-logo-YouTube', );

@@ -47,36 +47,36 @@ $myaccountIconMap: (
       height: 20px,
       selector: '.icon-phone'
     ),
-    save-payment: (
+    reserved-items: (
       coordinates: 66.66666666666667% 50%,
+      width: 20px,
+      height: 20px,
+      selector: '.icon-reserved-items'
+    ),
+    save-payment: (
+      coordinates: 75% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-save-payment'
     ),
     size-pref: (
-      coordinates: 75% 50%,
+      coordinates: 83.33333333333333% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-size-pref'
     ),
     store-credit: (
-      coordinates: 83.33333333333333% 50%,
+      coordinates: 91.66666666666667% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-store-credit'
     ),
     update-password: (
-      coordinates: 91.66666666666667% 50%,
+      coordinates: 100% 50%,
       width: 20px,
       height: 20px,
       selector: '.icon-update-password'
     ),
-    wishlist: (
-      coordinates: 100% 50%,
-      width: 20px,
-      height: 20px,
-      selector: '.icon-wishlist'
-    ),
 );
 
-$myaccountIcons: ('.icon-account-address', '.icon-email', '.icon-email-pref', '.icon-gift-credit', '.icon-livechat', '.icon-orders', '.icon-personal-assistant', '.icon-phone', '.icon-save-payment', '.icon-size-pref', '.icon-store-credit', '.icon-update-password', '.icon-wishlist', );
+$myaccountIcons: ('.icon-account-address', '.icon-email', '.icon-email-pref', '.icon-gift-credit', '.icon-livechat', '.icon-orders', '.icon-personal-assistant', '.icon-phone', '.icon-reserved-items', '.icon-save-payment', '.icon-size-pref', '.icon-store-credit', '.icon-update-password', );

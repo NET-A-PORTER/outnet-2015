@@ -16,6 +16,8 @@ You should now be able to make changes in **outnet-2015** and have the changes a
 Once you have committed your changes and finished working locally, you can unlink **outnet-2015** from your project
 - `bower unlink outnet-2015`
 
+*Note:* If you're using `npm` rather than `bower`, the above process should still work. Just replace `bower` with `npm` when running your commands. Please not that both outnet-2015 and the linked project must be using the **same version of node**.
+
 ###Troubleshooting
 - Make sure bower is installed globally
 - Make sure your changes in **outnet-2015** are appearing under the bower dependencies directory.

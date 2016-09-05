@@ -44,4 +44,4 @@ npm install --save outnet-2015#new-version-number
 See [http://preston-nap.herokuapp.com/#/style/outnet-2015](http://preston-nap.herokuapp.com/#/style/outnet-2015)
 
 ## Contributing
-See [CONTRIBUTING](https://github.com/NET-A-PORTER/outnet-2015/wiki/Contributing)
+See [CONTRIBUTING](_docs/CONTRIBUTING.md)

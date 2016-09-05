@@ -13,9 +13,10 @@
     "**/.*",
     "node_modules/",
     "package.json",
-    "scripts/",
     "**/templates",
     "config.js",
-    "test"
+    "_scripts",
+    "_test",
+    "_docs"
   ]
 }

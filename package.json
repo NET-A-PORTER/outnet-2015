@@ -16,7 +16,7 @@
   "scripts": {
     "build": "npm run build:breakpoints && npm run build:icons",
     "build:breakpoints": "json-sass -i device_breakpoints.json -o ./base/_breakpoints.scss -p '$breakpoints:' ",
-    "build:icons": "node --harmony scripts/buildIcons.js",
+    "build:icons": "node --harmony _scripts/buildIcons.js",
     "version": "mversion",
     "test": "mocha"
   },

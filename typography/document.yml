@@ -37,7 +37,7 @@ document:
       velit esse cillum dolore eu fugiat nulla pariatur.
     </p>
 - title: Hyperlinks
-  markup: <a href="#">Lorem ipsum dolor sit amet</a>, consectetur adipiscing elit.
+  markup: <a class="underline" href="#">Lorem ipsum dolor sit amet</a>, consectetur adipiscing elit.
 - title: Credits
   markup: |
     <p class="credit">

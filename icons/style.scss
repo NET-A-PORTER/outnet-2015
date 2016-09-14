@@ -19,3 +19,7 @@
 @include create_icons($myaccountIconMap, true) {
   background-image: none, url("../images/myaccount-icons.svg");
 };
+
+i {
+  font-style: normal;
+}

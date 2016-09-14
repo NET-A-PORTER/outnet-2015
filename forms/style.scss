@@ -1,4 +1,7 @@
 @import "../typography/mixins";
+@import "../mixins/variables";
+@import "../mixins/colours";
+@import "../mixins/viewport";
 
 input[type="password"],
 input[type="number"],
@@ -6,33 +9,31 @@ input[type="email"],
 input[type="text"],
 input[type="tel"],
 input[type="url"] {
-  border: #d3d3d3 1px solid;
-  border-radius: 6px;
-  color: #b7b7b7;
-  font-family: Arial, sans-serif;
-  font-size: 12px;
-  letter-spacing: 0.3px;
-  padding: 10px;
+  @include fontFamily("Body-WebS")
+  border: $greyBorder 1px solid;
+  color: $greyHeading;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 12px 10px 9px 10px;
   width: 100%;
   outline: none;
   &:active,
   &:focus,
   &.input-active {
-    border-color: #000;
-    color: #000;
+    border-color: $black;
+    color: $black;
   }
   &.input-error {
-    border-color: #e52a2b;
-    color: #b7b7b7;
+    border-color: $red;
+    color: $red;
     &:focus {
-      color: #000;
+      color: $black;
     }
   }
 }
 
 label {
   span {
-    @include fontFamily(FuturaDemi);
     display: block;
     font-size: 12px;
     margin: 12px 0 2px;
@@ -42,8 +43,47 @@ label {
 }
 
 .input-error {
-  color: #e52a2b;
-  font-family: Arial, sans-serif;
+  @include fontFamily("Body-WebS")
+  color: $red;
   font-size: 12px;
   padding-left: 2px;
+}
+
+.search-box {
+  $leftPadding: 10px;
+  position: relative;
+  font-size: 14px;
+  @include viewport-maximum(tablet) {
+    font-size: 16px;
+  }
+  i {
+    position: absolute;
+    left: $leftPadding;
+    &:before {
+      line-height: $ctaHeightS;
+      @include viewport-maximum(tablet) {
+        line-height: $ctaHeightM;
+      }
+    }
+  }
+  input.input-search {
+    font-size: inherit;
+    transition: width .3s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    height: $ctaHeightS;
+    @include viewport-maximum(tablet) {
+      height: $ctaHeightM;
+    }
+    width: 140px;
+    padding: 10px 10px 10px calc(#{$ctaHeightS} + #{$leftPadding});
+    @include viewport-maximum(tablet) {
+      padding-left: calc(#{$ctaHeightM} + #{$leftPadding});
+    }
+    background-color: $greyBackground;
+    border: none;
+    &:active,
+    &:focus,
+    &.input-active {
+      width: $ctaWidthM;
+    }
+  }
 }

@@ -1,156 +1,168 @@
 $defaultIconMap: (
-    arrow-down-black: (
+    about-us-black: (
       coordinates: 0 50%,
+      width: 10px,
+      height: 10px,
+      selector: '.icon-about-us-black'
+    ),
+    about-us-grey: (
+      coordinates: 3.5714285714285716% 50%,
+      width: 10px,
+      height: 10px,
+      selector: '.icon-about-us-grey'
+    ),
+    arrow-down-black: (
+      coordinates: 7.142857142857143% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-arrow-down-black'
     ),
     arrow-down-grey: (
-      coordinates: 3.8461538461538463% 50%,
+      coordinates: 10.714285714285714% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-arrow-down-grey'
     ),
     arrow-down-white: (
-      coordinates: 7.6923076923076925% 50%,
+      coordinates: 14.285714285714286% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-arrow-down-white'
     ),
     arrow-left-black: (
-      coordinates: 11.538461538461538% 50%,
+      coordinates: 17.857142857142858% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-arrow-left-black'
     ),
     arrow-left-grey: (
-      coordinates: 15.384615384615385% 50%,
+      coordinates: 21.428571428571427% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-arrow-left-grey'
     ),
     arrow-left-white: (
-      coordinates: 19.23076923076923% 50%,
+      coordinates: 25% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-arrow-left-white'
     ),
     arrow-right-black: (
-      coordinates: 23.076923076923077% 50%,
+      coordinates: 28.571428571428573% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-arrow-right-black'
     ),
     arrow-right-grey: (
-      coordinates: 26.923076923076923% 50%,
+      coordinates: 32.142857142857146% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-arrow-right-grey'
     ),
     arrow-right-white: (
-      coordinates: 30.76923076923077% 50%,
+      coordinates: 35.714285714285715% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-arrow-right-white'
     ),
     arrow-up-black: (
-      coordinates: 34.61538461538461% 50%,
+      coordinates: 39.285714285714285% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-arrow-up-black'
     ),
     arrow-up-grey: (
-      coordinates: 38.46153846153846% 50%,
+      coordinates: 42.857142857142854% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-arrow-up-grey'
     ),
     arrow-up-white: (
-      coordinates: 42.30769230769231% 50%,
+      coordinates: 46.42857142857143% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-arrow-up-white'
     ),
     cross-black: (
-      coordinates: 46.15384615384615% 50%,
+      coordinates: 50% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-cross-black'
     ),
     cross-grey: (
-      coordinates: 50% 50%,
+      coordinates: 53.57142857142857% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-cross-grey'
     ),
     cross-white: (
-      coordinates: 53.84615384615385% 50%,
+      coordinates: 57.142857142857146% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-cross-white'
     ),
     lock-black: (
-      coordinates: 57.69230769230769% 50%,
+      coordinates: 60.714285714285715% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-lock-black'
     ),
     lock-grey: (
-      coordinates: 61.53846153846154% 50%,
+      coordinates: 64.28571428571429% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-lock-grey'
     ),
     lock-white: (
-      coordinates: 65.38461538461539% 50%,
+      coordinates: 67.85714285714286% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-lock-white'
     ),
     minus-black: (
-      coordinates: 69.23076923076923% 50%,
+      coordinates: 71.42857142857143% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-minus-black'
     ),
     minus-grey: (
-      coordinates: 73.07692307692308% 50%,
+      coordinates: 75% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-minus-grey'
     ),
     minus-white: (
-      coordinates: 76.92307692307692% 50%,
+      coordinates: 78.57142857142857% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-minus-white'
     ),
     plus-black: (
-      coordinates: 80.76923076923077% 50%,
+      coordinates: 82.14285714285714% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-plus-black'
     ),
     plus-grey: (
-      coordinates: 84.61538461538461% 50%,
+      coordinates: 85.71428571428571% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-plus-grey'
     ),
     plus-white: (
-      coordinates: 88.46153846153847% 50%,
+      coordinates: 89.28571428571429% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-plus-white'
     ),
     search-black: (
-      coordinates: 92.3076923076923% 50%,
+      coordinates: 92.85714285714286% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-search-black'
     ),
     search-grey: (
-      coordinates: 96.15384615384616% 50%,
+      coordinates: 96.42857142857143% 50%,
       width: 10px,
       height: 10px,
       selector: '.icon-search-grey'
@@ -163,4 +175,4 @@ $defaultIconMap: (
     ),
 );
 
-$defaultIcons: ('.icon-arrow-down-black', '.icon-arrow-down-grey', '.icon-arrow-down-white', '.icon-arrow-left-black', '.icon-arrow-left-grey', '.icon-arrow-left-white', '.icon-arrow-right-black', '.icon-arrow-right-grey', '.icon-arrow-right-white', '.icon-arrow-up-black', '.icon-arrow-up-grey', '.icon-arrow-up-white', '.icon-cross-black', '.icon-cross-grey', '.icon-cross-white', '.icon-lock-black', '.icon-lock-grey', '.icon-lock-white', '.icon-minus-black', '.icon-minus-grey', '.icon-minus-white', '.icon-plus-black', '.icon-plus-grey', '.icon-plus-white', '.icon-search-black', '.icon-search-grey', '.icon-search-white', );
+$defaultIcons: ('.icon-about-us-black', '.icon-about-us-grey', '.icon-arrow-down-black', '.icon-arrow-down-grey', '.icon-arrow-down-white', '.icon-arrow-left-black', '.icon-arrow-left-grey', '.icon-arrow-left-white', '.icon-arrow-right-black', '.icon-arrow-right-grey', '.icon-arrow-right-white', '.icon-arrow-up-black', '.icon-arrow-up-grey', '.icon-arrow-up-white', '.icon-cross-black', '.icon-cross-grey', '.icon-cross-white', '.icon-lock-black', '.icon-lock-grey', '.icon-lock-white', '.icon-minus-black', '.icon-minus-grey', '.icon-minus-white', '.icon-plus-black', '.icon-plus-grey', '.icon-plus-white', '.icon-search-black', '.icon-search-grey', '.icon-search-white', );

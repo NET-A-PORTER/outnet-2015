@@ -3,9 +3,9 @@
     <title>Arrow left big_Black</title>
     <desc>Created with Sketch.</desc>
     <defs/>
-    <g id="aStyle-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="aIcons" transform="translate(-187.000000, -156.000000)" fill="#000000">
-            <g id="aArrow-left-big_Black" transform="translate(173.000000, 149.000000)">
+    <g id="aaStyle-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="aaIcons" transform="translate(-187.000000, -156.000000)" fill="#000000">
+            <g id="aaArrow-left-big_Black" transform="translate(173.000000, 149.000000)">
                 <polygon transform="translate(22.375609, 22.000000) scale(-1, 1) translate(-22.375609, -22.000000) " points="15.7524581 7 14 8.74997934 27.2586962 22.0086755 14.2404363 35.2624143 16.0077667 37 30.7512187 21.9962819"/>
             </g>
         </g>
@@ -15,9 +15,9 @@
     <title>Arrow left big_Grey</title>
     <desc>Created with Sketch.</desc>
     <defs/>
-    <g id="bStyle-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="bIcons" transform="translate(-187.000000, -231.000000)" fill="#B7B7B7">
-            <g id="bArrow-left-big_Grey" transform="translate(173.000000, 224.000000)">
+    <g id="abStyle-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="abIcons" transform="translate(-187.000000, -231.000000)" fill="#B7B7B7">
+            <g id="abArrow-left-big_Grey" transform="translate(173.000000, 224.000000)">
                 <polygon transform="translate(22.375609, 22.000000) scale(-1, 1) translate(-22.375609, -22.000000) " points="15.7524581 7 14 8.74997934 27.2586962 22.0086755 14.2404363 35.2624143 16.0077667 37 30.7512187 21.9962819"/>
             </g>
         </g>
@@ -27,9 +27,9 @@
     <title>Arrow left big_White</title>
     <desc>Created with Sketch.</desc>
     <defs/>
-    <g id="cStyle-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="cIcons" transform="translate(-187.000000, -331.000000)" fill="#FFFFFF">
-            <g id="cArrow-left-big_White" transform="translate(173.000000, 324.000000)">
+    <g id="acStyle-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="acIcons" transform="translate(-187.000000, -331.000000)" fill="#FFFFFF">
+            <g id="acArrow-left-big_White" transform="translate(173.000000, 324.000000)">
                 <polygon transform="translate(22.375609, 22.000000) scale(-1, 1) translate(-22.375609, -22.000000) " points="15.7524581 7 14 8.74997934 27.2586962 22.0086755 14.2404363 35.2624143 16.0077667 37 30.7512187 21.9962819"/>
             </g>
         </g>
@@ -39,10 +39,10 @@
     <title>Arrow right big_Black</title>
     <desc>Created with Sketch.</desc>
     <defs/>
-    <g id="dStyle-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="dIcons" transform="translate(-123.000000, -156.000000)" fill="#000000">
-            <g id="dArrow-right-big_Black" transform="translate(109.000000, 149.000000)">
-                <polygon id="dArrow-right-big" points="15.7524581 7 14 8.74997934 27.2586962 22.0086755 14.2404363 35.2624143 16.0077667 37 30.7512187 21.9962819"/>
+    <g id="adStyle-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="adIcons" transform="translate(-123.000000, -156.000000)" fill="#000000">
+            <g id="adArrow-right-big_Black" transform="translate(109.000000, 149.000000)">
+                <polygon id="adArrow-right-big" points="15.7524581 7 14 8.74997934 27.2586962 22.0086755 14.2404363 35.2624143 16.0077667 37 30.7512187 21.9962819"/>
             </g>
         </g>
     </g>
@@ -51,10 +51,10 @@
     <title>Arrow right big_Grey</title>
     <desc>Created with Sketch.</desc>
     <defs/>
-    <g id="eStyle-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="eIcons" transform="translate(-123.000000, -231.000000)" fill="#B7B7B7">
-            <g id="eArrow-right-big_Grey" transform="translate(109.000000, 224.000000)">
-                <polygon id="eArrow-right-big" points="15.7524581 7 14 8.74997934 27.2586962 22.0086755 14.2404363 35.2624143 16.0077667 37 30.7512187 21.9962819"/>
+    <g id="aeStyle-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="aeIcons" transform="translate(-123.000000, -231.000000)" fill="#B7B7B7">
+            <g id="aeArrow-right-big_Grey" transform="translate(109.000000, 224.000000)">
+                <polygon id="aeArrow-right-big" points="15.7524581 7 14 8.74997934 27.2586962 22.0086755 14.2404363 35.2624143 16.0077667 37 30.7512187 21.9962819"/>
             </g>
         </g>
     </g>
@@ -63,10 +63,10 @@
     <title>Arrow right big_White</title>
     <desc>Created with Sketch.</desc>
     <defs/>
-    <g id="fStyle-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="fIcons" transform="translate(-123.000000, -331.000000)" fill="#FFFFFF">
-            <g id="fArrow-right-big_White" transform="translate(109.000000, 324.000000)">
-                <polygon id="fArrow-right-big" points="15.7524581 7 14 8.74997934 27.2586962 22.0086755 14.2404363 35.2624143 16.0077667 37 30.7512187 21.9962819"/>
+    <g id="afStyle-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="afIcons" transform="translate(-123.000000, -331.000000)" fill="#FFFFFF">
+            <g id="afArrow-right-big_White" transform="translate(109.000000, 324.000000)">
+                <polygon id="afArrow-right-big" points="15.7524581 7 14 8.74997934 27.2586962 22.0086755 14.2404363 35.2624143 16.0077667 37 30.7512187 21.9962819"/>
             </g>
         </g>
     </g>

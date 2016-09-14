@@ -1,5 +1,6 @@
 @import 'colours';
 @import 'viewport';
+@import 'browser';
 @import 'aspect_ratio';
 
 @mixin _button {
@@ -34,14 +35,6 @@
         border-width: $width + ($line-width * 2);
         margin-left: -($width + ($line-width * 2));
     }
-}
-
-@mixin cross-browser($property, $values...) {
-    #{-webkit- + $property}: $values;
-    #{-moz- + $property}: $values;
-    #{-ms- + $property}: $values;
-    #{-o- + $property}: $values;
-    #{$property}: $values;
 }
 
 @mixin feature($baseClass) {

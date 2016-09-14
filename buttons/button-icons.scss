@@ -7,7 +7,6 @@
 .btn {
   &.btn-icon-left,
   &.btn-icon-right {
-    text-transform: capitalize;
     position: relative;
     .btn-icon {
       position: absolute;
@@ -15,9 +14,18 @@
   }
   @each $direction in ('left','right') {
     &.btn-icon-#{$direction} {
-      padding-#{$direction}: $btnPadding + 22px;
       .btn-icon {
         #{$direction}: 15px;
+      }
+      &.btn-small {
+        .btn-icon {
+          #{$direction}: 12px;
+        }
+      }
+      &.btn-x-small {
+        .btn-icon {
+          #{$direction}: 10px;
+        }
       }
     }
   }

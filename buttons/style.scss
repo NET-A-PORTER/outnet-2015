@@ -1,90 +1,66 @@
 @import 'variables';
 @import 'button-icons';
+@import '../mixins/variables';
 @import '../mixins/colours';
+@import '../typography/mixins';
 
 button,
 input[type=submit],
 .btn {
-	background: $white;
-	border: 1px solid $greyBorder;
-	color: $black;
-	cursor: pointer;
 	display: inline-block;
-	font-family: "Body-WebS";
-	font-size: 15px;
-	letter-spacing: 1.3px;
-	line-height: 1.2em;
+	vertical-align: middle;
+	width: $ctaWidthM;
+  height: $ctaHeightM;
+
 	margin-bottom: 5px;
 	margin-top: 5px;
-	max-width: 300px;
 	padding: 10px ($btnPadding - 1px) 7px;
+
+	background: $white;
+	color: $black;
+	cursor: pointer;
+  border: 1px solid $greyBorder;
+
+	font-family: "Body-WebS";
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 1.2em;
 	text-align: center;
 	text-decoration: none;
-	text-transform: uppercase;
-	vertical-align: middle;
+
 	white-space: initial;
   box-shadow: none;
+  box-sizing: border-box;
 	&:hover {
 		background: $greySelected;
 		border-color: $greySelected;
 		color: $black;
 	}
 	&.btn-small {
-		font-size: 13px;
-		max-width: 150px;
-		padding: 8px 15px 7px;
+		font-size: 14px;
+		width: $ctaWidthS;
+    height: $ctaHeightS;
+		padding: 7px 15px 7px;
+	}
+	&.btn-x-small {
+		font-size: 12px;
+		width: $ctaWidthXS;
+    height: $ctaHeightXS;
+    padding: 5px 0;
 	}
 	&.btn-primary {
 		background: $black;
-		border: 1px solid $black;
+		border-color: $black;
 		color: $white;
 		&:hover {
 			background: $greyHover;
 			border-color: $greyHover;
 		}
 	}
-	&.btn-selector-multi,
-	&.btn-selector-single-1,
-	&.btn-selector-single-2 {
-		@extend .btn-small;
-		background: $white;
-		border: $greyBorder 1px solid;
-		max-width: inherit;
-		text-transform: none;
-	}
-
-	&.btn-selector-single-1:hover {
-		background: $black;
-		border-color: $black;
-		color: $white;
-	}
-	&.btn-selector-single-2:hover {
-		background: $greySelected;
-		border-color: $greySelected;
-	}
-	&.btn-selector-active {
-		&.btn-selector-multi {
-			border: 2px solid $darkGreySelected;
-			padding: 7px 14px 6px;
-		}
-		&.btn-selector-single-1 {
-			background: $black;
-			border-color: $black;
-			color: $white;
-		}
-		&.btn-selector-single-2 {
-			background: $greySelected;
-			border-color: $greySelected;
-			color: $black;
-		}
-	}
-	&.btn-selector-multi:hover {
-		@extend .btn-selector-active.btn-selector-multi;
-	}
 	&.btn-white {
 		background: $white;
 		color: $black;
-		border-color: $black;
+    border: 1px solid $black;
 		&:hover {
 			background: $black;
 			color: $white;
@@ -96,7 +72,7 @@ input[type=submit],
 	&.btn-disabled:hover {
 		background: $greySelected;
 		border: 1px solid $greySelected;
-		color: $darkGreySelected;
+		color: $greyHeading;
 		cursor: default;
 		outline: none;
 	}

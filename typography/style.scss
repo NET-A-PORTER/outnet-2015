@@ -1,4 +1,5 @@
 @import 'mixins';
+@import '../mixins/base';
 @import '../mixins/colours';
 
 $screen-s-min: 640px;
@@ -9,6 +10,10 @@ $screen-m-min: 960px;
 b {
   @include fontFamily("Body-WebS");
   font-weight: normal;
+}
+
+body {
+  @include cross-browser(font-smoothing, antialiased);
 }
 
 html,

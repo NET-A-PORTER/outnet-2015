@@ -13,7 +13,6 @@ b {
 }
 
 body {
-  @include cross-browser(font-smoothing, antialiased);
 }
 
 html,

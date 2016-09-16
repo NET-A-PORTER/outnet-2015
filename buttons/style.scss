@@ -28,6 +28,7 @@ input[type=submit],
 	text-align: center;
 	text-decoration: none;
 
+  @include cross-browser(font-smoothing, antialiased);
 	white-space: initial;
   box-shadow: none;
   box-sizing: border-box;

@@ -10,6 +10,8 @@
     position: relative;
     .btn-icon {
       position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
     }
   }
   @each $direction in ('left','right') {

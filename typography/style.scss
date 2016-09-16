@@ -7,8 +7,8 @@ $screen-m-min: 960px;
 
 @include loadFonts();
 
-b {
-  @include fontFamily("Body-WebS");
+b, strong {
+  @include fontFamily("Bold-WebS");
   font-weight: normal;
 }
 
@@ -132,9 +132,6 @@ p {
     letter-spacing: 1px;
     text-align: center;
     text-transform: uppercase;
-    strong {
-      @include fontFamily("Bold-WebS");
-    }
   }
   &.badge {
     font-size: 12px;
@@ -144,6 +141,12 @@ p {
     &.sold-out {
       color: $greyHeading;
       background-color: rgba(255, 255, 255, 0.5);
+    }
+    &.notification {
+      &:before {
+        height: 8px;
+        width: 8px;
+      }
     }
   }
 	&.quote {
@@ -162,7 +165,7 @@ p {
 	}
 }
 
-span.notification {
+.notification {
   @include fontFamily("Body-WebS");
   font-size: 14px;
   letter-spacing: 0px;
@@ -173,7 +176,7 @@ span.notification {
     height: 6px;
     margin-left: 3px;
     margin-right: 4px;
-    vertical-align: middle;
+    vertical-align: baseline;
     background-color: #b90000;
     border-radius: 6px;
   }

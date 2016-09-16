@@ -78,6 +78,9 @@ document:
     <span class="notification">
       You have 3 notifications
     </span>
+      <p class="notification badge">
+        Exclusive to the Outnet
+      </p>
 - title: Quotes
   detail: Note that hyphens must be used before the quote source
   markup: |

@@ -32,6 +32,15 @@ document:
       <input class="btn-x-small" type="submit" value="Input Submit" />
       <button class="btn-x-small" disabled>Button</button>
     </div>
+- title: Social buttons
+  detail: Use the colours provided by each platform
+  markup: |
+    <div>
+      <button class="btn btn-icon-left btn-facebook" href="#" role="button">
+        <i class="icon-social-logo-Facebook-white btn-icon"/></i>
+        <span>Sign in using Facebook</span>
+      </button>
+    </div>
 - title: Button icons
   detail: This should be used for call-to actions, especially on interactive components such as dropdowns. Is responsive.
   markup: |

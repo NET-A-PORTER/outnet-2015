@@ -16,7 +16,7 @@ input[type=submit],
 	margin-top: 5px;
 	padding: 10px ($btnPadding - 1px) 7px;
 
-	background: $white;
+	background-color: $white;
 	color: $black;
 	cursor: pointer;
   border: 1px solid $greyBorder;
@@ -32,7 +32,7 @@ input[type=submit],
   box-shadow: none;
   box-sizing: border-box;
 	&:hover {
-		background: $greySelected;
+		background-color: $greySelected;
 		border-color: $greySelected;
 		color: $black;
 	}
@@ -49,20 +49,20 @@ input[type=submit],
     padding: 5px 0;
 	}
 	&.btn-primary {
-		background: $black;
+		background-color: $black;
 		border-color: $black;
 		color: $white;
 		&:hover {
-			background: $greyHover;
+			background-color: $greyHover;
 			border-color: $greyHover;
 		}
 	}
 	&.btn-white {
-		background: $white;
+		background-color: $white;
 		color: $black;
     border: 1px solid $black;
 		&:hover {
-			background: $black;
+			background-color: $black;
 			color: $white;
 		}
 	}
@@ -70,7 +70,7 @@ input[type=submit],
 	&[disabled]:hover,
 	&.btn-disabled,
 	&.btn-disabled:hover {
-		background: $greySelected;
+		background-color: $greySelected;
 		border: 1px solid $greySelected;
 		color: $greyHeading;
 		cursor: default;

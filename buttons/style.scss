@@ -40,12 +40,14 @@ input[type=submit],
 	}
 	&.btn-small, &.btn-facebook {
 		font-size: 14px;
+    max-width: initial;
 		width: $ctaWidthS;
     height: $ctaHeightS;
 		padding: 7px 15px 7px;
 	}
 	&.btn-x-small {
 		font-size: 12px;
+    max-width: initial;
 		width: $ctaWidthXS;
     height: $ctaHeightXS;
     padding: 5px 0;

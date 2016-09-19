@@ -15,6 +15,7 @@ td, th, table
 label,
 .notification, .credit {
 	@include fontFamily("Body-WebS");
+  font-size: 14px;
 }
 
 h1,
@@ -72,6 +73,7 @@ h3.slug {
 }
 
 b, strong {
+  @include fontFamily("Bold-WebS");
   font-weight: normal;
 }
 

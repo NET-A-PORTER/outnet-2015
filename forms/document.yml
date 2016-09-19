@@ -31,10 +31,6 @@ document:
     <div class="search-box">
       <i class="icon-search"></i>
       <input
-        type="text"
-        class="input-search"
-        placeholder="Search..."
-        value=""
-        name="keywords"
-        autocomplete="off">
+        class="input-search widen-on-focus"
+        type="text" placeholder="Search..." value="" name="keywords" autocomplete="off">
     </div>

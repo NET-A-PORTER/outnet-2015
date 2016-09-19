@@ -51,13 +51,18 @@ label {
 }
 
 .search-box {
+  box-sizing: border-box;
   $leftPadding: 10px;
   position: relative;
   font-size: 14px;
+  // Remove unwanted X from IE in search to clear text
+  &::-ms-clear {
+    display: none;
+  }
   @include viewport-maximum(tablet) {
     font-size: 16px;
   }
-  i {
+  .icon-search {
     position: absolute;
     left: $leftPadding;
     &:before {
@@ -68,8 +73,14 @@ label {
     }
   }
   input.input-search {
+    box-sizing: inherit;
     font-size: inherit;
-    transition: width .3s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    &.widen-on-focus {
+      transition: width .3s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      &:focus {
+        width: 200px;
+      }
+    }
     height: $ctaHeightS;
     @include viewport-maximum(tablet) {
       height: $ctaHeightM;
@@ -85,6 +96,20 @@ label {
     &:focus,
     &.input-active {
       width: $ctaWidthM;
+    }
+
+    // input-placeholder cannot be hierarchical so must be done like this
+    &::-webkit-input-placeholder { /* WebKit browsers */
+      color: $greyHeading;
+    }
+    &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      color: $greyHeading;
+    }
+    &::-moz-placeholder { /* Mozilla Firefox 19+ */
+      color: $greyHeading;
+    }
+    &:-ms-input-placeholder { /* Internet Explorer 10+ */
+      color: $greyHeading;
     }
   }
 }

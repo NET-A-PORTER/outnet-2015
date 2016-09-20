@@ -1,5 +1,11 @@
+@import 'mixins/browser';
+
 * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  @include cross-browser(box-sizing, border-box);
+  margin: 0;
+  padding: 0;
 }
+
+table{font-size:100%;}
+
+a img{border:none;}/*removes borders from images that are links*/

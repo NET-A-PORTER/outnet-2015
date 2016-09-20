@@ -1,1 +1,6 @@
+@import 'clearfix';
 @import 'resets';
+
+.clearfix {
+    @extend %clearfix;
+}

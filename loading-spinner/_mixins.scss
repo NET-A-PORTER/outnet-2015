@@ -41,6 +41,7 @@ $barHeight: 1.5em;
 
   }
   > div {
+    font-size: inherit;
     &:before {
       @include cross-browser(transform, rotate(-90deg));
       background: #777;

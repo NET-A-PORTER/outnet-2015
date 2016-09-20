@@ -1,0 +1,8 @@
+@import '../mixins/colours';
+
+.preston-element-typography {
+  ul {
+    border: $greyBorder solid 1px;
+    width: 250px;
+  }
+}

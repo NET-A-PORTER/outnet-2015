@@ -78,9 +78,16 @@ document:
     <span class="notification">
       You have 3 notifications
     </span>
-      <p class="notification badge">
-        Exclusive to the Outnet
-      </p>
+    <p class="notification badge">
+      Just 1 left
+    </p>
+- title: Lists
+  markup: |
+    <ul>
+      <li>Alexander Wang</li>
+      <li>Missoni</li>
+      <li>MICHAEL Michael Kors</li>
+    </ul>
 - title: Quotes
   detail: Note that hyphens must be used before the quote source
   markup: |

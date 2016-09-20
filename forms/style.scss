@@ -59,7 +59,7 @@ label {
   &::-ms-clear {
     display: none;
   }
-  @include viewport-maximum(tablet) {
+  @include viewport-maximum(tabletPortrait) {
     font-size: 16px;
   }
   .icon-search {
@@ -67,7 +67,7 @@ label {
     left: $leftPadding;
     &:before {
       line-height: $ctaHeightS;
-      @include viewport-maximum(tablet) {
+      @include viewport-maximum(tabletPortrait) {
         line-height: $ctaHeightM;
       }
     }
@@ -82,12 +82,12 @@ label {
       }
     }
     height: $ctaHeightS;
-    @include viewport-maximum(tablet) {
+    @include viewport-maximum(tabletPortrait) {
       height: $ctaHeightM;
     }
     width: 140px;
     padding: 10px 10px 10px calc(#{$ctaHeightS} + #{$leftPadding});
-    @include viewport-maximum(tablet) {
+    @include viewport-maximum(tabletPortrait) {
       padding-left: calc(#{$ctaHeightM} + #{$leftPadding});
     }
     background-color: $greyBackground;

@@ -1,3 +1,7 @@
 document:
-- title: Base
-  detail: The base style imports all necessary CSS such as resets and SASS mixins
+- title: Resets
+  detail: Resets browser specific styles
+- title: Devices & Breakpoints
+  detail: Sass variables and mixins for responsive pages
+- title: Clearfix
+  detail: Sass placeholder for clearfix. .clearfix class declared in resets

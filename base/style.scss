@@ -1,6 +1,7 @@
-@import 'clearfix';
 @import 'resets';
 
-.clearfix {
-    @extend %clearfix;
-}
+@import 'breakpoints';
+
+@import 'devices';
+
+@import 'clearfix';

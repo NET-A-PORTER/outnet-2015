@@ -1,9 +1,12 @@
-@import 'mixins/browser';
+@import '../mixins/browser';
+@import '_clearfix';
+
+.clearfix {
+    @extend %clearfix;
+}
 
 * {
   @include cross-browser(box-sizing, border-box);
-  margin: 0;
-  padding: 0;
 }
 
 table{font-size:100%;}

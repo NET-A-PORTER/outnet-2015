@@ -29,7 +29,7 @@ document:
     <div class="service-message service-message-notify">
       <div class="service-message-head">Further Reductions</div>
       <div class="service-message-sell">Sell description</div>
-      <a class="btn btn-primary btn-white" href="#" role="button">Call to action</a>
+      <a class="btn btn-primary btn-white width-m" href="#" role="button">Call to action</a>
     </div>
 - title: Service Messages
   detail: |

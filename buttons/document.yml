@@ -32,6 +32,27 @@ document:
       <input class="btn-x-small" type="submit" value="Input Submit" />
       <button class="btn-x-small" disabled>Button</button>
     </div>
+
+- title: Buttons with fixed width
+  detail: Add a width class to give a defined width.
+  markup: |
+    <div>
+      <a class="btn btn-primary width-m" href="#" role="button">m</a>
+      <a class="btn btn-primary width-s" href="#" role="button">s</a>
+      <a class="btn btn-primary width-xs" href="#" role="button">x-s</a>
+    </div>
+    <div>
+      <a class="btn btn-primary width-full" href="#" role="button">full width</a>
+    </div>
+    <div>
+      <a class="btn btn-small width-m" href="#" role="button">m</a>
+      <a class="btn btn-small width-s" href="#" role="button">s</a>
+      <a class="btn btn-small width-xs" href="#" role="button">x-s</a>
+    </div>
+    <div>
+      <a class="btn btn-small width-full" href="#" role="button">full width</a>
+    </div>
+
 - title: Social buttons
   detail: Use the colours provided by each platform
   markup: |
@@ -73,4 +94,31 @@ document:
         <span class="icon-arrow-right-black btn-icon"></span>
         <span>Show</span>
       </a>
+    </div>
+- title: Dropdown buttons
+  detail: This should be used as a replacement to the select tag. 
+  markup: |
+    <div class="btn btn-dropdown btn-icon-right">
+      <span class="icon-arrow-down-black btn-icon"></span>
+      <select>
+        <option value="GB">United Kingdom</option>
+        <option value="FR">France</option>
+        <option value="SP">Spain</option>
+      </select>
+    </div>
+    <div class="btn btn-dropdown btn-small btn-icon-right">
+      <span class="icon-arrow-down-black btn-icon"></span>
+      <select>
+        <option value="GB">United Kingdom</option>
+        <option value="FR">France</option>
+        <option value="SP">Spain</option>
+      </select>
+    </div>
+    <div class="btn btn-dropdown btn-x-small btn-icon-right">
+      <span class="icon-arrow-down-black btn-icon"></span>
+      <select>
+        <option value="GB">United Kingdom</option>
+        <option value="FR">France</option>
+        <option value="SP">Spain</option>
+      </select>
     </div>

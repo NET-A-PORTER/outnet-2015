@@ -1,4 +1,3 @@
-@import 'variables';
 @import '../mixins/viewport';
 @import '../mixins/base';
 @import '../icons/maps/defaultIcons';
@@ -12,19 +11,24 @@
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
+      pointer-events:none;
     }
   }
   @each $direction in ('left','right') {
     &.btn-icon-#{$direction} {
+
+      padding-#{$direction}: 36px;
       .btn-icon {
         #{$direction}: 15px;
       }
       &.btn-small {
+        padding-#{$direction}: 31px;
         .btn-icon {
           #{$direction}: 12px;
         }
       }
       &.btn-x-small {
+        padding-#{$direction}: 27px;
         .btn-icon {
           #{$direction}: 10px;
         }

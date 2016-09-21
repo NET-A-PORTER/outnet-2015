@@ -66,9 +66,9 @@ label {
     position: absolute;
     left: $leftPadding;
     &:before {
-      line-height: $ctaHeightS;
+      line-height: $eltHeightS;
       @include viewport-maximum(tabletPortrait) {
-        line-height: $ctaHeightM;
+        line-height: $eltHeightM;
       }
     }
   }
@@ -81,22 +81,22 @@ label {
         width: 240px;
       }
     }
-    height: $ctaHeightS;
+    height: $eltHeightS;
     @include viewport-maximum(tabletPortrait) {
-      height: $ctaHeightM;
+      height: $eltHeightM;
     }
     width: 140px;
-    padding: 10px 10px 10px calc(#{$ctaHeightS} + #{$leftPadding});
+    padding: 10px 10px 10px calc(#{$eltHeightS} + #{$leftPadding});
     @include viewport-maximum(tabletPortrait) {
-      padding-left: calc(#{$ctaHeightM} + #{$leftPadding});
+      padding-left: calc(#{$eltHeightM} + #{$leftPadding});
     }
     background-color: $greyBackground;
     border: none;
     &:active,
     &:focus,
     &.input-active {
-      width: $ctaWidthM;
-    }
+      width: $eltWidthM;
+      }
 
     // input-placeholder cannot be hierarchical so must be done like this
     &::-webkit-input-placeholder { /* WebKit browsers */

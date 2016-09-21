@@ -1,0 +1,17 @@
+@import '../mixins/variables';
+
+.width-xs {
+	width: $eltWidthXS;
+}
+
+.width-s {
+	width: $eltWidthS;
+}
+
+.width-m {
+	width: $eltWidthM;
+}
+
+.width-full {
+	width: 100%;
+}

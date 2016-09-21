@@ -34,8 +34,7 @@ bower link outnet-2015
 
 Once you are ready to make a release, version and publish the latest version of master.
   - `git fetch --tags`
-  - `npm run version -- (major|minor|patch) -m`
-  - `git push --follow-tags`
+  - `npm run version -- (major|minor|patch)`
 
 #### S3 deployment (subject to change)
 

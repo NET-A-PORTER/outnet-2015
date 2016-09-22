@@ -1,0 +1,45 @@
+document:
+- title: Greys
+  markup: |
+    <ul>
+      <li class="greyBackground">
+        <h2>Background</h2>
+        <p class="code">$greyBackground:<br>#f2f2f2</p>
+      </li>
+      <li class="greyHeading">
+        <h2>Heading</h2>
+        <p class="code">$greyHeading:<br>#777777</p>
+      </li>
+      <li class="greySelected">
+        <h2>Selected</h2>
+        <p class="code">$greySelected:<br>#e6e6e6</p>
+      </li>
+      <li class="darkGreySelected">
+        <h2>Selected (Dark)</h2>
+        <p class="code">$darkGreySelected:<br>#b7b7b7</p>
+      </li>
+      <li class="greyBorder">
+        <h2>Border</h2>
+        <p class="code">$greyBorder:<br>#d3d3d3</p>
+      </li>
+      <li class="greyHover">
+        <h2>Hover</h2>
+        <p class="code">$greyHover:<br>#4b4b4b</p>
+      </li>
+    </ul>
+- title: Other colours
+  markup: |
+    <ul>
+      <li class="white">
+        <h2>White</h2>
+        <p class="code">$white:<br>#fff</p>
+      </li>
+      <li class="black">
+        <h2>Black</h2>
+        <p class="code">$black:<br>#000</p>
+      </li>
+      <li class="red">
+        <h2>Red</h2>
+        <p class="code">$red:<br>#b90000</p>
+      </li>
+    </ul>

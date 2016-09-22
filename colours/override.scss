@@ -1,0 +1,59 @@
+@import '../base/clearfix';
+@import 'colours';
+
+.preston-element-colours {
+
+  ul {
+    li {
+      transition: all .3s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      display: inline-block;
+      width: 150px;
+      height: 120px;
+      margin: 5px 10px;
+      padding: 5px;
+      text-align: center;
+      &:hover {
+        transform: scale(1.04);
+      }
+    }
+  }
+
+  p.code {
+    font-family: monospace;
+    font-size: 12px;
+    opacity: 0.7;
+  }
+
+  .greyBorder {
+    background: $greyBorder;
+  }
+  .greySelected {
+    background: $greySelected;
+  }
+  .greyHeading {
+    background: $greyHeading;
+    color: $white;
+  }
+  .darkGreySelected {
+    background: $darkGreySelected;
+  }
+  .greyHover {
+    background: $greyHover;
+    color: $white;
+  }
+  .greyBackground {
+    background: $greyBackground;
+  }
+  .white {
+    background: $white;
+    border: 1px solid black;
+  }
+  .black {
+    background: $black;
+    color: $white;
+  }
+  .red {
+    background: $red;
+    color: $white;
+  }
+}

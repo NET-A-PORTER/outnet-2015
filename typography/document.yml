@@ -36,6 +36,8 @@ document:
       commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
       velit esse cillum dolore eu fugiat nulla pariatur.
     </p>
+- title: Copyright
+  markup: <p class="copyright">© Copyright 2009-2016 THE OUTNET.COM, part of YOOX NET-A-PORTER GROUP</p>
 - title: Hyperlinks
   markup: <a class="underline" href="#">Lorem ipsum dolor sit amet</a>, consectetur adipiscing elit.
 - title: Credits

@@ -5,19 +5,20 @@ document:
 - markup: |
     <div class="grid-12 gutter-10">
       <div class="span-4">
-        <label>
+        <label class="with-input">
           <span>Default state</span>
+          <a class="underline">Forgot password</a>
           <input type="text" value="Your email" />
         </label>
       </div>
       <div class="span-4">
-        <label>
+        <label class="with-input">
           <span>Active state</span>
           <input type="text" class="input-active" value="email@example.com" />
         </label>
       </div>
       <div class="span-4">
-        <label>
+        <label class="with-input">
           <span>Error state</span>
           <input type="text" class="input-error" value="Your email" />
         </label>

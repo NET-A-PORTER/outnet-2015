@@ -39,8 +39,8 @@ input[type=submit],
 	}
 	&.btn-small, &.btn-facebook {
 		font-size: 14px;
-    	max-width: initial;
-    	height: $eltHeightS;
+    max-width: initial;
+    height: $eltHeightS;
 		padding: 7px 15px 7px;
 	}
 	&.btn-x-small {
@@ -83,11 +83,13 @@ input[type=submit],
     padding-left: calc(30px + #{$iconPadding});
     background: linear-gradient(#4c69ba, #3b55a0);
     color: $white;
-    font-family: Helvetica;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 1px;
     border-radius: 4px;
+    span {
+      font-family: Helvetica;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
     .btn-icon {
       left: $iconPadding;
       &:before {

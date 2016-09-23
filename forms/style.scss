@@ -2,6 +2,7 @@
 @import "../mixins/variables";
 @import "../mixins/colours";
 @import "../mixins/viewport";
+@import "../mixins/browser";
 
 input[type="password"],
 input[type="number"],
@@ -9,6 +10,7 @@ input[type="email"],
 input[type="text"],
 input[type="tel"],
 input[type="url"] {
+  @include cross-browser(font-smoothing, antialiased);
   @include fontFamily("Body-WebS")
   border: $greyBorder 1px solid;
   border-radius: 0;
@@ -33,20 +35,27 @@ input[type="url"] {
   }
 }
 
-label {
-  span {
+label.with-input {
+  span, a {
     display: block;
     font-size: 12px;
-    margin: 12px 0 2px;
-    padding-left: 2px;
+    line-height: 12px;
+    margin: 12px 0 7px;
     letter-spacing: 0.5px;
+  }
+  span {
+    float: left;
+    padding-left: 2px;
+  }
+  a {
+    float: right;
   }
 }
 
 .input-error {
   @include fontFamily("Body-WebS")
+  @include cross-browser(font-smoothing, antialiased);
   color: $red;
-  font-size: 12px;
   padding-left: 2px;
 }
 

@@ -93,3 +93,5 @@ document:
     <a class="icon-personal-assistant btn"></a>
     <a class="icon-account btn"></a>
     <a class="icon-lock-black btn"></a>
+    <a class="icon-lock-grey btn btn-disabled"></a>
+    <a class="icon-lock-white btn btn-primary"></a>

@@ -1,5 +1,5 @@
 @import 'maps/glyphs/defaultGlyphs';
-@import 'maps/glyphs/largeGlyphs';
+@import 'maps/glyphs/mobileGlyphs';
 @import 'maps/glyphs/otherGlyphs';
 @import 'maps/socialIcons';
 @import 'maps/myaccountIcons';
@@ -8,7 +8,7 @@
 
 @include create_glyphs($defaultGlyphMap);
 
-@include create_glyphs($largeGlyphMap);
+@include create_glyphs($mobileGlyphMap);
 
 @include create_glyphs($otherGlyphMap);
 

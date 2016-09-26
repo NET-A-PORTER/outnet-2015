@@ -35,11 +35,11 @@ $myaccountIconMap: (
       height: 20px,
       selector: '.icon-livechat'
     ),
-    lock: (
+    lock-black: (
       coordinates: 37.5% 50%,
       width: 20px,
       height: 20px,
-      selector: '.icon-lock'
+      selector: '.icon-lock-black'
     ),
     lock-grey: (
       coordinates: 43.75% 50%,
@@ -103,4 +103,4 @@ $myaccountIconMap: (
     ),
 );
 
-$myaccountIcons: ('.icon-account', '.icon-account-address', '.icon-email', '.icon-email-pref', '.icon-gift-credit', '.icon-livechat', '.icon-lock', '.icon-lock-grey', '.icon-lock-white', '.icon-orders', '.icon-personal-assistant', '.icon-phone', '.icon-reserved-items', '.icon-save-payment', '.icon-size-pref', '.icon-store-credit', '.icon-update-password', );
+$myaccountIcons: ('.icon-account', '.icon-account-address', '.icon-email', '.icon-email-pref', '.icon-gift-credit', '.icon-livechat', '.icon-lock-black', '.icon-lock-grey', '.icon-lock-white', '.icon-orders', '.icon-personal-assistant', '.icon-phone', '.icon-reserved-items', '.icon-save-payment', '.icon-size-pref', '.icon-store-credit', '.icon-update-password', );

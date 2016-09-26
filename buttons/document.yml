@@ -61,6 +61,10 @@ document:
         <i class="icon-social-logo-Facebook-white btn-icon"/></i>
         <span>Sign in using Facebook</span>
       </button>
+      <button class="btn btn-x-small btn-icon-left btn-facebook" href="#" role="button">
+        <i class="icon-social-logo-Facebook-white btn-icon"/></i>
+        <span>Sign in using Facebook</span>
+      </button>
     </div>
 - title: Button icons
   detail: This should be used for call-to actions, especially on interactive components such as dropdowns. Is responsive.
@@ -96,7 +100,7 @@ document:
       </a>
     </div>
 - title: Dropdown buttons
-  detail: This should be used as a replacement to the select tag. 
+  detail: This should be used as a replacement to the select tag.
   markup: |
     <div class="btn btn-dropdown btn-icon-right">
       <span class="icon-arrow-down-black btn-icon"></span>

@@ -1,7 +1,8 @@
 @import '../mixins/viewport';
-@import '../mixins/base';
 @import '../icons/mixins';
 
+button,
+input[type=submit],
 .btn {
   &.btn-icon-left,
   &.btn-icon-right {
@@ -21,19 +22,54 @@
 
       padding-#{$direction}: 36px;
       .btn-icon {
+        @include icon_size($size: 22px);
         #{$direction}: 15px;
       }
       &.btn-small {
         padding-#{$direction}: 31px;
         .btn-icon {
+          @include icon_size($size: 16px);
           #{$direction}: 12px;
         }
       }
       &.btn-x-small {
         padding-#{$direction}: 27px;
         .btn-icon {
+          @include icon_size($size: 14px);
           #{$direction}: 10px;
         }
+      }
+    }
+  }
+}
+
+button,
+input[type=submit],
+.btn {
+  $iconPadding: 5px;
+  &.btn-facebook {
+    width: auto;
+    padding-left: calc(30px + #{$iconPadding});
+    background: linear-gradient(#4c69ba, #3b55a0);
+    color: $white;
+    border-radius: 4px;
+    span {
+      font-family: Helvetica;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    .btn-icon, &.btn-x-small .btn-icon {
+      left: $iconPadding;
+    }
+    &:hover {
+      color: $white;
+      background: linear-gradient(#5b7bd5, #4864b1);;
+    }
+    .btn-x-small {
+      padding-left: calc(24px + #{$iconPadding});
+      span {
+        font-size: 11px;
       }
     }
   }

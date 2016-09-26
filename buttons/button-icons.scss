@@ -6,6 +6,9 @@
   &.btn-icon-left,
   &.btn-icon-right {
     position: relative;
+    span, i {
+      font-size: inherit;
+    }
     .btn-icon {
       position: absolute;
       top: 50%;

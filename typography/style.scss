@@ -89,14 +89,14 @@ a {
 p {
   font-size: 14px;
 	letter-spacing: 0px;
-  line-height: 18px;
+  	line-height: 24px;
 	&.campaign {
 		font-size: 16px;
-    line-height: 24px;
+    	line-height: 24px;
 	}
 	&.informational {
 		font-size: 12px;
-		line-height: 18px;
+		line-height: 16px;
 	}
 	&.credit {
 		max-width: 600px;
@@ -122,9 +122,13 @@ p {
   }
   &.badge {
     font-size: 12px;
+  	padding: 4px;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-align: center;
+  	line-height: 16px;
+	@include fontFamily("Bold-WebS");
+
     &.sold-out {
       color: $greyHeading;
       background-color: rgba(255, 255, 255, 0.5);
@@ -181,6 +185,57 @@ ul {
     background-color: #b90000;
     border-radius: 6px;
   }
+}
+
+.designer-name {
+	display: block;
+	@include fontFamily("Bold-WebS");
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+
+.title {
+	display: block;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0;
+}
+
+.current {
+	display: block;
+	line-height: 24px;
+	font-size: 18px;
+	color: $red;
+}
+
+.original, .discount {
+	display: block;
+	line-height: 16px;
+	font-size: 14px;
+}
+
+.product-details {
+	.title {
+		margin-top: 4px;
+	}
+	.current {
+		margin-top: 8px;
+	}
+	.discount-pricing {
+		margin-top: -0.25em;
+		.original, .discount {
+			display: inline;
+			line-height: 16px;
+		}
+		.discount {
+			margin-left: 0.5em;
+		}
+	}
+	.badge {
+		margin-top: 4px;
+	}
 }
 
 .breadcrumbs {

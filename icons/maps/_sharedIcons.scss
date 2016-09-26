@@ -1,0 +1,16 @@
+$sharedIconMap: (
+    about-us-black: (
+      coordinates: 0 50%,
+      width: 20px,
+      height: 20px,
+      selector: '.icon-about-us-black'
+    ),
+    about-us-grey: (
+      coordinates: 100% 50%,
+      width: 20px,
+      height: 20px,
+      selector: '.icon-about-us-grey'
+    ),
+);
+
+$sharedIcons: ('.icon-about-us-black', '.icon-about-us-grey', );

@@ -1,6 +1,7 @@
 @import 'maps/glyphs/defaultGlyphs';
 @import 'maps/glyphs/mobileGlyphs';
 @import 'maps/glyphs/otherGlyphs';
+@import 'maps/sharedIcons';
 @import 'maps/socialIcons';
 @import 'maps/myaccountIcons';
 @import 'mixins';
@@ -11,6 +12,10 @@
 @include create_glyphs($mobileGlyphMap);
 
 @include create_glyphs($otherGlyphMap);
+
+@include create_icons($sharedIconMap, true) {
+  background-image: none, url("../images/shared-icons.svg");
+};
 
 @include create_icons($socialIconMap, true) {
   background-image: none, url("../images/social-icons.svg");

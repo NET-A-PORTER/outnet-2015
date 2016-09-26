@@ -187,44 +187,41 @@ ul {
   }
 }
 
-.designer-name {
-	display: block;
-	@include fontFamily("Bold-WebS");
-	font-size: 14px;
-	line-height: 16px;
-	letter-spacing: 0.5px;
-	text-transform: uppercase;
-}
+.product-item {
+	.designer-name {
+		display: block;
+		@include fontFamily("Bold-WebS");
+		font-size: 14px;
+		line-height: 16px;
+		letter-spacing: 0.5px;
+		text-transform: uppercase;
+	}
 
-.title {
-	display: block;
-	font-size: 14px;
-	line-height: 16px;
-	letter-spacing: 0;
-}
-
-.current {
-	display: block;
-	line-height: 24px;
-	font-size: 18px;
-	color: $red;
-}
-
-.original, .discount {
-	display: block;
-	line-height: 16px;
-	font-size: 14px;
-}
-
-.product-details {
 	.title {
+		display: block;
+		font-size: 14px;
+		line-height: 16px;
+		letter-spacing: 0;
 		margin-top: 4px;
 	}
+
 	.current {
+		display: block;
+		line-height: 24px;
+		font-size: 18px;
+		color: $red;
 		margin-top: 8px;
 	}
+
+	.original, .discount {
+		display: block;
+		line-height: 16px;
+		font-size: 14px;
+	}
+
 	.discount-pricing {
 		margin-top: -0.25em;
+
 		.original, .discount {
 			display: inline;
 			line-height: 16px;
@@ -233,7 +230,11 @@ ul {
 			margin-left: 0.5em;
 		}
 	}
+
 	.badge {
+		@include fontFamily("Bold-WebS");
+		font-size: 12px;
+		line-height: 16px;
 		margin-top: 4px;
 	}
 }

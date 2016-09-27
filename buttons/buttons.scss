@@ -7,7 +7,9 @@ button,
 input[type=submit],
 .btn {
   @include antialiased;
+  @include cross-browser(appearance, none);
   transition: background-color .3s cubic-bezier(0.215, 0.610, 0.355, 1.000), color .3s cubic-bezier(0.215, 0.610, 0.355, 1.000), border-color .3s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+
 	display: inline-block;
 	vertical-align: middle;
 	height: $eltHeightM;
@@ -21,6 +23,7 @@ input[type=submit],
 	color: $black;
 	cursor: pointer;
 	border: 1px solid $greyBorder;
+  @include cross-browser(border-radius, 0);
 
 	font-family: "Body-WebS";
 	font-size: 16px;

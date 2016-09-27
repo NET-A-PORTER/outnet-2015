@@ -1,5 +1,7 @@
 .alert {
-  font-family: Arial, sans-serif;
-  font-size: 12px;
-  letter-spacing: 0.8px;
+  @include fontFamily("Body-WebS");
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  color: $red;
 }

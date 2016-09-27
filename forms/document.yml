@@ -8,7 +8,7 @@ document:
         <label class="with-input">
           <span>Default state</span>
           <a class="underline">Forgot password</a>
-          <input type="text" value="Your email" />
+          <input type="text" placeholder="Your email" />
         </label>
       </div>
       <div class="span-4">
@@ -20,7 +20,7 @@ document:
       <div class="span-4">
         <label class="with-input">
           <span>Error state</span>
-          <input type="text" class="input-error" value="Your email" />
+          <input type="text" class="input-error" placeholder="Your email" />
         </label>
         <p class="input-error">Please enter the required information.</p>
       </div>

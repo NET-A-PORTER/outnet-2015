@@ -10,7 +10,7 @@ input[type="email"],
 input[type="text"],
 input[type="tel"],
 input[type="url"] {
-  @include cross-browser(font-smoothing, antialiased);
+  @include antialiased;
   @include fontFamily("Body-WebS")
   border: $greyBorder 1px solid;
   border-radius: 0;
@@ -53,8 +53,8 @@ label.with-input {
 }
 
 .input-error {
+  @include antialiased;
   @include fontFamily("Body-WebS")
-  @include cross-browser(font-smoothing, antialiased);
   color: $red;
   padding-left: 2px;
 }

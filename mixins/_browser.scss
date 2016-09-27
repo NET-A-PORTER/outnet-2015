@@ -11,3 +11,8 @@
     @content;
   }
 }
+
+@mixin antialiased {
+  @include cross-browser(font-smoothing, antialiased);
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -6,6 +6,7 @@
 button,
 input[type=submit],
 .btn {
+  @include antialiased;
   transition: background-color .3s cubic-bezier(0.215, 0.610, 0.355, 1.000), color .3s cubic-bezier(0.215, 0.610, 0.355, 1.000), border-color .3s cubic-bezier(0.215, 0.610, 0.355, 1.000);
 	display: inline-block;
 	vertical-align: middle;
@@ -29,7 +30,6 @@ input[type=submit],
 	text-decoration: none;
 	text-transform: capitalize;
 
-  @include cross-browser(font-smoothing, antialiased);
 	white-space: initial;
 	box-shadow: none;
 	box-sizing: border-box;

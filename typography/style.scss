@@ -130,6 +130,8 @@ p {
 	@include fontFamily("Bold-WebS");
 
     &.sold-out-slug {
+	  @include fontFamily("Body-WebS");
+	  letter-spacing: 1px;
       color: $greyHeading;
       background-color: rgba(255, 255, 255, 0.5);
     }

@@ -10,6 +10,9 @@
   padding: 9px;
   line-height: 1em;
   text-align: center;
+  &:hover {
+    border-color: $greySelected;
+  }
 }
 
 @mixin arrow($direction: top, $colour: #000, $fill-colour: #fff, $width: 15px, $line-width: 1px) {

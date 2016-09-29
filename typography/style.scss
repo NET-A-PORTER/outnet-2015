@@ -7,6 +7,7 @@ $screen-m-min: 960px;
 
 @include loadFonts();
 
+
 h1, h2, h3,
 b, strong,
 div, a, p, span, input, button,
@@ -15,7 +16,8 @@ td, th, table
 label,
 .notification, .credit {
 	@include fontFamily("Body-WebS");
-  font-size: 14px;
+	font-size: 14px;
+	font-weight: normal;
 }
 
 h1,

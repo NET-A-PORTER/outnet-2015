@@ -1,6 +1,6 @@
 {
   "commitMessage": "v%s",
   "scripts": {
-    "postcommit": "git push --follow-tags"
+    "postcommit": "VERSION=v%s; cat _docs/README.md.template | replace '{{version}}' $VERSION > README.md < _docs/README.md.template > README.md && git add README.md && git commit --amend --no-edit && git push origin $VERSION"
   }
 }

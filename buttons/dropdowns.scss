@@ -1,0 +1,46 @@
+@import '../mixins/browser';
+@import '../mixins/variables';
+
+button,
+input[type=submit],
+.btn {
+  &.btn-dropdown {
+    padding:0;
+    height:auto;
+    &:hover {
+      background-color:transparent;
+    }
+    &.btn-small {
+      &.btn-icon-right {
+        // override global.scss padding-right
+        padding-right:0;
+      }
+      select {
+        height: $eltHeightS;
+        padding: 0 33px 0 15px;
+      }
+    }
+    &.btn-x-small {
+      select {
+        height: $eltHeightXS;
+        padding: 0 28px 0 10px;
+      }
+    }
+    .btn-icon {
+      pointer-events: none;
+    }
+    select {
+      height: $eltHeightM;
+      padding: 0 39px 0 19px;
+      font-size: 14px;
+      font-family: inherit;
+      @include cross-browser(appearance, none);
+      background-color: white;
+      background-color: transparent;
+      border: none;
+      border-radius: 0;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+}

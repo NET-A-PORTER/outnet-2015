@@ -33,11 +33,11 @@ Regenerates breakpoints and icons (if you change `device-breakpoints.json` or if
 ## Upgrading
 
 ```bash
-bower install --save outnet-2015#{{version}}
+bower install --save outnet-2015#v{{version}}
 ```
 
 ```
-npm install --save outnet-2015#{{version}}
+npm install --save outnet-2015#v{{version}}
 ```
 
 ## Usage

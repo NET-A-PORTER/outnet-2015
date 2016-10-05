@@ -5,7 +5,7 @@
 }
 
 @mixin loadFonts() {
-  $fontDirectory: "../fonts/new";
+  $fontDirectory: "../fonts";
   $fontList: "Body-WebS" "BodyItalic-WebS" "Bold-WebS" "BoldItalic-WebS";
 
   @each $font in $fontList {

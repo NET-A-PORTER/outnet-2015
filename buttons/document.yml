@@ -70,11 +70,11 @@ document:
   detail: This should be used for call-to actions, especially on interactive components such as dropdowns. Is responsive.
   markup: |
     <div>
-      <a class="btn btn-icon-left">
+      <a class="btn btn-icon-left btn-primary btn-white">
         <span class="icon-arrow-left-black btn-icon"></span>
         <span>Hide</span>
       </a>
-      <a class="btn btn-icon-right">
+      <a class="btn btn-icon-right btn-primary btn-white">
         <span class="icon-arrow-right-black btn-icon"></span>
         <span>Show</span>
       </a>

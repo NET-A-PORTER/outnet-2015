@@ -1,11 +1,19 @@
 @import '../mixins/viewport';
 @import '../icons/mixins';
+@import '../colours/colours';
 
 button,
 input[type=submit],
 .btn {
   &.btn-icon-left,
   &.btn-icon-right {
+    &.btn-white:hover {
+      .btn-icon {
+        &:before {
+          color: $white;
+        }
+      }
+    }
     position: relative;
     span, i {
       font-size: inherit;

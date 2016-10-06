@@ -39,7 +39,11 @@ document:
 - title: Copyright
   markup: <p class="copyright">© Copyright 2009-2016 THE OUTNET.COM, part of YOOX NET-A-PORTER GROUP</p>
 - title: Hyperlinks
-  markup: <a class="underline" href="#">Lorem ipsum dolor sit amet</a>, consectetur adipiscing elit.
+  markup: |
+    <a class="underline" href="#">Lorem ipsum dolor sit amet</a>, consectetur adipiscing elit.
+    <p class="informational">
+      <a class="underline informational" href="#">Lorem ipsum dolor sit amet</a>, consectetur adipiscing elit.
+    </p>
 - title: Credits
   markup: |
     <p class="credit">
@@ -47,33 +51,12 @@ document:
       Credit Type <span>Credit source</span>
     </p>
 - title: Breadcrumbs
+  disable: true
   markup: |
     <div class="breadcrumbs">
     	<a href="/en-GB/" title="Home">Home</a>
     	<a href="/en-GB/Shop/Clothing" title="Clothing">Clothing</a>
     	<span class="current">Tops</span>
-    </div>
-- title: Promotional Slugs
-  markup: |
-    <p class="slug">
-      I am a promotional slug
-    </p>
-- title: Discount
-  markup: |
-    <p class="discount">
-      Up to <strong>70% off</strong>
-    </p>
-- title: Badges
-  markup: |
-    <div>
-      <p class="badge">
-        Exclusive to the Outnet
-      </p>
-    </div>
-    <div>
-      <p class="badge sold-out">
-        Sold Out
-      </p>
     </div>
 - title: Notifications
   markup: |
@@ -97,3 +80,38 @@ document:
       "We are all apprentices in a craft where no one ever becomes a master."
       <span class="credit">&mdash; Ernest Hemmingway</span>
     </p>
+- title: Products
+  markup: |
+    <div class="product-item">
+      <span class="designer-name">Monreal London</span>
+      <span class="title">Mesh-trimmed stretch-jersey top</span>
+      <div class="pricing">
+        <span class="current">£65</span>
+        <div class="discount-pricing">
+          <span class="original">Was £130</span>
+          <span class="discount">50% off</span>
+        </div>
+      </div>
+    </div>
+- title: Promotional Slugs
+  markup: |
+    <p class="slug">
+      I am a promotional slug
+    </p>
+- title: Discount
+  markup: |
+    <p class="discount">
+      Up to <strong>70% off</strong>
+    </p>
+- title: Badges
+  markup: |
+    <div>
+      <p class="badge">
+        Exclusive to the Outnet
+      </p>
+    </div>
+    <div>
+      <p class="badge sold-out">
+        Sold Out
+      </p>
+    </div>

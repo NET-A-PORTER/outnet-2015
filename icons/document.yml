@@ -95,3 +95,8 @@ document:
     <a class="icon-lock-black btn"></a>
     <a class="icon-lock-grey btn btn-disabled"></a>
     <a class="icon-lock-white btn btn-primary"></a>
+- title: Shared icons
+  disable: false
+  markup: |
+    <a class="icon-about-us-black btn"/></a>
+    <a class="icon-about-us-grey btn btn-disabled"/></a>

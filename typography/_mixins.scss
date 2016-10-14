@@ -24,6 +24,7 @@
 
 %underline {
   position: relative;
+  line-height: normal;
   &:before {
     content: "";
     position: absolute;

@@ -17,6 +17,6 @@ deploy:
 notifications:
   webhooks:
     urls:
-      - http://76fcfcf5.ngrok.io/webhook
+      - https://preston-nap-pr-generator.herokuapp.com/webhook
     on_success: always
-    on_failure: always
+    on_failure: never

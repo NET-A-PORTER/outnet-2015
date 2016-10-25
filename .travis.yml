@@ -15,7 +15,7 @@ deploy:
     tags: true
     repo: NET-A-PORTER/outnet-2015
 after_deploy:
-  - npm run publish
+  - node --harmony ./node_modules/preston-core/bin/preston-publish --dir=_dist/ --configDir=_config/
 notifications:
   webhooks:
     urls:

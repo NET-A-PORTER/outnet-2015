@@ -17,8 +17,8 @@
     "build": "npm run build:breakpoints && npm run build:icons && npm run build:preston",
     "build:breakpoints": "json-sass -i device_breakpoints.json -o ./base/_breakpoints.scss -p '$breakpoints:' ",
     "build:icons": "node --harmony _scripts/buildIcons.js",
-    "build:preston": "preston build --outputDir=_dist/ --configDir=_config/",
-    "publish": "preston publish --dir=_dist/ --configDir=_config/",
+    "build:preston": "node --harmony ./node_modules/preston-core/bin/preston-build --outputDir=_dist/ --configDir=_config/",
+    "publish": "node --harmony ./node_modules/preston-core/bin/preston-publish --dir=_dist/ --configDir=_config/",
     "version": "git fetch --tags && mversion",
     "test": "mocha _test"
   },

@@ -32,7 +32,7 @@
     "mversion": "^1.10.1",
     "object-assign": "^4.1.0",
     "path": "^0.12.7",
-    "preston-core": "git+ssh://git@github.com:NET-A-PORTER/preston-core.git#v0.1.0",
+    "preston-core": "^0.1.1",
     "sass-true": "^2.1.2",
     "svg-sprite": "^1.2.19",
     "vinyl": "^1.1.1"

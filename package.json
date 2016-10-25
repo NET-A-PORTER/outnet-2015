@@ -14,9 +14,11 @@
   },
   "homepage": "https://github.com/NET-A-PORTER/outnet-2015#readme",
   "scripts": {
-    "build": "npm run build:breakpoints && npm run build:icons",
+    "build": "npm run build:breakpoints && npm run build:icons && npm run build:preston",
     "build:breakpoints": "json-sass -i device_breakpoints.json -o ./base/_breakpoints.scss -p '$breakpoints:' ",
     "build:icons": "node --harmony _scripts/buildIcons.js",
+    "build:preston": "preston build --outputDir=_dist/ --configDir=_config/",
+    "publish": "preston publish --dir=_dist/ --configDir=_config/",
     "version": "git fetch --tags && mversion",
     "test": "mocha _test"
   },
@@ -30,6 +32,7 @@
     "mversion": "^1.10.1",
     "object-assign": "^4.1.0",
     "path": "^0.12.7",
+    "preston-core": "^0.1.1",
     "sass-true": "^2.1.2",
     "svg-sprite": "^1.2.19",
     "vinyl": "^1.1.1"

@@ -4,7 +4,7 @@ cache:
     - node_modules
 script:
   - npm install || cat npm-debug.log
-  - npm run build:breakpoints && node --harmony ./node_modules/preston-core/bin/preston-sprite --dir=icons/ --configDir=_config/ && node --harmony ./node_modules/preston-core/bin/preston-build --outputDir=_dist/ --configDir=_config/
+  - npm run build:breakpoints && node --harmony ./node_modules/preston-core/bin/preston-build --outputDir=_dist/ --configDir=_config/
   - npm run test
 deploy:
   provider: npm

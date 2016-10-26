@@ -6,5 +6,5 @@ _dist/
 
 
 # config
-_config/
-!_config/local.json
+_config/*
+!_config/default.json

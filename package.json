@@ -2,7 +2,6 @@
   "name": "outnet-2015",
   "version": "2.4.13",
   "description": "Styles for OUTNET 2015",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NET-A-PORTER/outnet-2015.git"
@@ -14,27 +13,18 @@
   },
   "homepage": "https://github.com/NET-A-PORTER/outnet-2015#readme",
   "scripts": {
-    "build": "npm run build:breakpoints && npm run build:icons && npm run build:dist",
+    "build": "npm run build:breakpoints && npm run build:preston",
     "build:breakpoints": "json-sass -i device_breakpoints.json -o ./base/_breakpoints.scss -p '$breakpoints:' ",
-    "build:icons": "node --harmony _scripts/buildIcons.js",
-    "build:dist": "preston build --outputDir=_dist/ --configDir=_config/",
+    "build:preston": "preston build --outputDir=_dist/ --configDir=_config/ --spriteDir=icons/",
     "publish": "preston publish --dir=_dist/ --configDir=_config/",
     "version": "git fetch --tags && mversion",
     "test": "mocha _test"
   },
-  "devDependencies": {
-    "co": "^4.6.0",
-    "es6-promisify": "^4.0.0",
-    "glob": "^7.0.3",
+  "dependencies": {
     "json-sass": "^1.3.5",
-    "mkdirp": "^0.5.1",
     "mocha": "^3.0.0",
     "mversion": "^1.10.1",
-    "object-assign": "^4.1.0",
-    "path": "^0.12.7",
-    "preston-core": "^0.1.1",
-    "sass-true": "^2.1.2",
-    "svg-sprite": "^1.2.19",
-    "vinyl": "^1.1.1"
+    "preston-core": "^0.1.5",
+    "sass-true": "^2.1.2"
   }
 }

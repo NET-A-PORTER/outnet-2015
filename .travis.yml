@@ -3,7 +3,7 @@ cache:
   directories:
     - node_modules
 script:
-  - npm run build:breakpoints && npm run build:icons && node --harmony ./node_modules/preston-core/bin/preston-build --outputDir=_dist/ --configDir=_config/
+  - npm run build
   - npm run test
 deploy:
   provider: npm
@@ -14,11 +14,9 @@ deploy:
   on:
     tags: true
     repo: NET-A-PORTER/outnet-2015
-after_deploy:
-  - node --harmony ./node_modules/preston-core/bin/preston-publish --dir=_dist/ --configDir=_config/
-# notifications:
-#   webhooks:
-#     urls:
-#       - https://preston-nap-pr-generator.herokuapp.com/webhook
-#     on_success: always
-#     on_failure: never
+notifications:
+  webhooks:
+    urls:
+      - https://preston-nap-pr-generator.herokuapp.com/webhook
+    on_success: always
+    on_failure: never

@@ -1,5 +1,6 @@
 {
 	"title": "Outnet 2015",
+  "name": "outnet-2015",
  	"elements": ["base", "typography", "buttons", "colours", "forms", "icons", "grid", "alerts", "messaging", "loading-spinner"],
   	"files": ["styles.scss"],
 	"views": [

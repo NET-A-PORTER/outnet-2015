@@ -16,7 +16,7 @@
     "build": "npm run build:breakpoints && npm run build:preston",
     "build:breakpoints": "json-sass -i device_breakpoints.json -o ./base/_breakpoints.scss -p '$breakpoints:' ",
     "build:preston": "preston build --outputDir=_dist/ --configDir=_config/ --spriteDir=icons/",
-    "publish": "preston publish --dir=_dist/ --configDir=_config/",
+    "publish:s3": "preston publish --dir=_dist/ --configDir=_config/",
     "version": "git fetch --tags && mversion",
     "test": "mocha _test"
   },

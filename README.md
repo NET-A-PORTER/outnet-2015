@@ -44,5 +44,5 @@ npm install --save outnet-2015#v2.6.3
 See [http://preston-nap.herokuapp.com/#/style/outnet-2015](http://preston-nap.herokuapp.com/#/style/outnet-2015)
 
 ## Contributing
-See [CONTRIBUTING](_docs/CONTRIBUTING.md)
-
+See [CONTRIBUTING](_docs/CONTRIBUTING.md) for a quick overview.
+See [RELEASING CHANGES](_docs/RELEASING_CHANGES.md) for more detail on the release process.

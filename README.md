@@ -10,7 +10,7 @@ The most fashionable styles at your fingertips
 
 Add the following code to the `<head>` of your page(s).
 ```html
-<link rel="stylesheet" href="//cache.theoutnet.com/preston-assets/2.6.3/css/outnet-2015.css">
+<link rel="stylesheet" href="//cache.theoutnet.com/preston-assets/2.7.0/css/outnet-2015.css">
 ```
 
 You can install the sass version via [npm](https://www.npmjs.com/) or [bower](http://bower.io).
@@ -33,16 +33,16 @@ Regenerates breakpoints and icons (if you change `device-breakpoints.json` or if
 ## Upgrading
 
 ```bash
-bower install --save outnet-2015#v2.6.3
+bower install --save outnet-2015#v2.7.0
 ```
 
 ```
-npm install --save outnet-2015#v2.6.3
+npm install --save outnet-2015#v2.7.0
 ```
 
 ## Usage
 See [http://preston-nap.herokuapp.com/#/style/outnet-2015](http://preston-nap.herokuapp.com/#/style/outnet-2015)
 
 ## Contributing
-See [CONTRIBUTING](_docs/CONTRIBUTING.md) for a quick overview.
-See [RELEASING CHANGES](_docs/RELEASING_CHANGES.md) for more detail on the release process.
+See [CONTRIBUTING](_docs/CONTRIBUTING.md)
+
